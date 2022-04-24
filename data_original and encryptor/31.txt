@@ -1,0 +1,471 @@
+<begin>
+<id>
+60114030
+</id>
+<q>
+What is the need for a File when you can store anything in memory?
+</q>
+<code>
+</code>
+<opt> A file is stored on Hard Disk which can store Gigabytes of data.</opt>
+<opt>Memory (RAM) is limited in any computer.</opt>
+<opt>File stored on Hard Disk is safe even if PC is switched off. But Memory or RAM contents are cleared when PC is off.</opt>
+<opt>All of these</opt>
+<ans>All of these</ans>
+</end>
+
+<begin>
+<id>
+60214030
+</id>
+<q>
+Which of the following true about FILE *fp?
+</q>
+<code>
+</code>
+<opt>FILE is a structure and fp is a pointer to the structure of FILE type</opt>
+<opt>FILE is a keyword in C for representing files and fp is a variable of FILE type.</opt>
+<opt>FILE is a stream</opt>
+<opt>FILE is a buffered stream</opt>
+<ans>FILE is a structure and fp is a pointer to the structure of FILE type</ans>
+</end>
+
+<begin>
+<id>
+60314030
+</id>
+<q>
+What is the keyword used to declare a C file pointer?
+</q>
+<code>
+</code>
+<opt>file</opt>
+<opt>FILE</opt>
+<opt>FILEFP</opt>
+<opt>filefp</opt>
+<ans>FILE</ans>
+</end>
+
+<begin>
+<id>
+60414030
+</id>
+<q>
+If there is any error while opening a file, fopen will return?
+</q>
+<code>
+</code>
+<opt>Nothing</opt>
+<opt>EOF</opt>
+<opt>NULL</opt>
+<opt>Depends on the compiler</opt>
+<ans>NULL</ans>
+</end>
+
+<begin>
+<id>
+60514030
+</id>
+<q>
+Select a function which is used to read a single character from a file at a time?
+</q>
+<code>
+</code>
+<opt>fscanf()</opt>
+<opt>getch()</opt>
+<opt>fgetc()</opt>
+<opt>fgets()</opt>
+<ans>fgetc()</ans>
+</end>
+
+<begin>
+<id>
+60614030
+</id>
+<q>
+The first and second arguments of fopen are-
+</q>
+<code>
+</code>
+<opt>A character string containing the name of the file & the second argument is the mode.</opt>
+<opt>A character string containing the name of the user & the second argument is the mode.</opt>
+<opt>A character string containing file pointer & the second argument is the mode.</opt>
+<opt>None of these</opt>
+<ans>A character string containing the name of the file & the second argument is the mode.</ans>
+</end>
+
+<begin>
+<id>
+60714030
+</id>
+<q>
+What is the meant by ‘a’ in the following operation?
+fp = fopen(“Random.txt”, “a”);
+</q>
+<code>
+</code>
+<opt>Attach</opt>
+<opt>Apprehend</opt>
+<opt>Add</opt>
+<opt>Append</opt>
+<ans>Append</ans>
+</end>
+
+<begin>
+<id>
+60804030
+</id>
+<q>
+In C, when getc() function returns EOF?
+</q>
+<code>
+</code>
+<opt>Never returns</opt>
+<opt>End of file is reached</opt>
+<opt>When getc() fails to read a character</opt>
+<opt>Both B & C</opt>
+<ans>Both B & C</ans>
+</end>
+
+<begin>
+<id>
+60914030
+</id>
+<q>
+fopen() function will not open______
+</q>
+<code>
+</code>
+<opt>bin files</opt>
+<opt>c files</opt>
+<opt>txt files</opt>
+<opt>None of these</opt>
+<ans>None of these</ans>
+</end>
+
+<begin>
+<id>
+61014030
+</id>
+<q>
+Which of the following mode argument is used to truncate?
+</q>
+<code>
+</code>
+<opt>a</opt>
+<opt>w</opt>
+<opt>f</opt>
+<opt>t</opt>
+<ans>w</ans>
+</end>
+
+<begin>
+<id>
+61114030
+</id>
+<q>
+FILE is of type ______
+</q>
+<code>
+</code>
+<opt>int type</opt>
+<opt>char * type</opt>
+<opt>struct type</opt>
+<opt>None of these</opt>
+<ans>struct type</ans>
+</end>
+
+<begin>
+<id>
+61214030
+</id>
+<q>
+fseek() should be preferred over rewind() mainly because
+</q>
+<code>
+</code>
+<opt>rewind() doesn't work for empty files</opt>
+<opt>rewind() may fail for large files</opt>
+<opt>In rewind, there is no way to check if the operations completed successfully</opt>
+<opt>All of these</opt>
+<ans>In rewind, there is no way to check if the operations completed successfully</ans>
+</end>
+
+<begin>
+<id>
+61314030
+</id>
+<q>
+What kind of files can be created with C programming?
+</q>
+<code>
+</code>
+<opt>Images (*.jpg, *.png, *.gif…)</opt>
+<opt>Executables (*.exe on Windows)</opt>
+<opt>Sources (*.c)</opt>
+<opt>Text files (*.txt)</opt>
+<ans>Sources (*.c)</ans>
+</end>
+
+<begin>
+<id>
+61414030
+</id>
+<q>
+The value of EOF is_____
+</q>
+<code>
+</code>
+<opt>0</opt>
+<opt>1</opt>
+<opt>-1</opt>
+<opt>None of these</opt>
+<ans></ans>
+</end>
+
+<begin>
+<id>
+61504030
+</id>
+<q>
+The word "Stream" means-
+</q>
+<code>
+</code>
+<opt>Any source of input</opt>
+<opt>Any destination for output</opt>
+<opt>Both A & B</opt>
+<opt>None of these</opt>
+<ans>Both A & B</ans>
+</end>
+
+<begin>
+<id>
+61614030
+</id>
+<q>
+<stdio.h> provides ________ standard streams.
+</q>
+<code>
+</code>
+<opt>2</opt>
+<opt>3</opt>
+<opt>4</opt>
+<opt>5</opt>
+<ans>3</ans>
+</end>
+
+<begin>
+<id>
+61704030
+</id>
+<q>
+What is input redirection?
+</q>
+<code>
+</code>
+<opt>It makes the stdin stream represent a file instead of the keyboard</opt>
+<opt>It makes the stdout stream represent a file instead of the keyboard</opt>
+<opt>Both A & B</opt>
+<opt>None of these</opt>
+<ans>It makes the stdin stream represent a file instead of the keyboard</ans>
+</end>
+
+<begin>
+<id>
+61814030
+</id>
+<q>
+<stdio.h> supports _______ kinds of files.
+</q>
+<code>
+</code>
+<opt>2</opt>
+<opt>3</opt>
+<opt>4</opt>
+<opt>5</opt>
+<ans>2</ans>
+</end>
+
+<begin>
+<id>
+61904030
+</id>
+<q>
+In binary files,there are no _______ markers,all bytes are treated equally.
+</q>
+<code>
+</code>
+<opt>file</opt>
+<opt>end-of-file</opt>
+<opt>Both A & B</opt>
+<opt>None of these</opt>
+<ans>end-of-file</ans>
+</end>
+
+<begin>
+<id>
+62014030
+</id>
+<q>
+Does "restrict" keyword have any effect on the behaviour of fopen?
+</q>
+<code>
+</code>
+<opt>Yes</opt>
+<opt>No</opt>
+<opt>May be</opt>
+<opt>None of these</opt>
+<ans>No</ans>
+</end>
+
+<begin>
+<id>
+62114030
+</id>
+<q>
+What does the mode "r+" mean when passed to fopen function?
+</q>
+<code>
+</code>
+<opt>Open for reading</opt>
+<opt>Open for rewriting</opt>
+<opt>Open for reading and writing,starting at the beginning</opt>
+<opt>None of these</opt>
+<ans>Open for reading and writing,starting at the beginning</ans>
+</end>
+
+<begin>
+<id>
+62214030
+</id>
+<q>
+When we use fopen to open a binary file,we'll need to include the letter ____ in the mode string.
+</q>
+<code>
+</code>
+<opt>b</opt>
+<opt>o</opt>
+<opt>a</opt>
+<opt>f</opt>
+<ans>b</ans>
+</end>
+
+<begin>
+<id>
+62314030
+</id>
+<q>
+fclose returns _______ if the file was closed successfully,otherwise it returns the error code _______.
+</q>
+<code>
+</code>
+<opt>1,EOF</opt>
+<opt>0,EOF</opt>
+<opt>1,NULL</opt>
+<opt>0,NULL</opt>
+<ans>0,EOF</ans>
+</end>
+
+<begin>
+<id>
+62414030
+</id>
+<q>
+<stdio.h> provides 2 functions for working with temporary files.They are-
+</q>
+<code>
+</code>
+<opt>tmpfile1 & tmpfile2</opt>
+<opt>tempfile & tempnam</opt>
+<opt>tmpfile & tmpnam</opt>
+<opt>None of these</opt>
+<ans>tmpfile & tmpnam</ans>
+</end>
+
+<begin>
+<id>
+62514030
+</id>
+<q>
+Which one of the following is correct syntax for opening a file?
+</q>
+<code>
+</code>
+<opt>FILE *fopen(const *filename, const char *mode)</opt>
+<opt>FILE *fopen(const *filename)</opt>
+<opt>FILE *open(const *filename, const char *mode)</opt>
+<opt>FILE open(const*filename)</opt>
+<ans>FILE *fopen(const *filename, const char *mode)</ans>
+</end>
+
+<begin>
+<id>
+62604030
+</id>
+<q>
+Functions used in buffering are-
+</q>
+<code>
+</code>
+<opt>fflush</opt>
+<opt>setvbuf</opt>
+<opt>Both A & B</opt>
+<opt>None of these</opt>
+<ans>Both A & B</ans>
+</end>
+
+<begin>
+<id>
+62714030
+</id>
+<q>
+"remove" and "rename" both functions return _____ if they succeed.
+</q>
+<code>
+</code>
+<opt>1</opt>
+<opt>0</opt>
+<opt>-1</opt>
+<opt>None of these</opt>
+<ans>0</ans>
+</end>
+
+<begin>
+<id>
+62814030
+</id>
+<q>
+The function fprintf is used in a program
+</q>
+<code>
+</code>
+<opt>When too many printf calls have already been used in the program</opt>
+<opt>In place of printf,since printf uses more memory</opt>
+<opt>When output is to be printed onto a file</opt>
+<opt>All of these</opt>
+<ans>When output is to be printed onto a file</ans>
+</end>
+
+<begin>
+<id>
+62914030
+</id>
+<q>
+In the following code,fp points to
+</q>
+<code>
+#include<stdio.h>
+int main()
+{
+	FILE *fp;
+	fp=fopen("trial","r");
+}
+</code>
+<opt>The first character in the file</opt>
+<opt>A structure which contains a char pointer which points to the first character in the file</opt>
+<opt>The name of the file</opt>
+<opt>None of these</opt>
+<ans>A structure which contains a char pointer which points to the first character in the file</ans>
+</end>
+

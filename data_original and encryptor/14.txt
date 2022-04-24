@@ -1,0 +1,420 @@
+<begin>
+<id>
+14614030
+</id>
+<q>
+What is an Array in C language?
+</q>
+<code>
+</code>
+<opt>A group of elements of same data type</opt>
+<opt>An array contains more than one element</opt>
+<opt>Array elements are stored in memory in continuous or contiguous locations</opt>
+<opt>All of these</opt>
+<ans>All of these</ans>
+</end>
+
+<begin>
+<id>
+14714030
+</id>
+<q>
+An array Index starts with?
+</q>
+<code>
+</code>
+<opt>-1</opt>
+<opt>1</opt>
+<opt>0</opt>
+<opt>2</opt>
+<ans>0</ans>
+</end>
+
+<begin>
+<id>
+14814030
+</id>
+<q>
+What is the output of the following C program?
+</q>
+<code>
+#include<stdio.h>
+int main(void)
+{
+  static int a[20]; 
+  int i=1; 
+  a[i] = i++; 
+  printf("\n%d %d %d", a[0],a[1],i);
+}
+</code>
+<opt>0 0 1</opt>
+<opt>0 0 2</opt>
+<opt>0 0 0</opt>
+<opt>0 1 2</opt>
+<ans>0 0 2</ans>
+</end>
+
+<begin>
+<id>
+14914030
+</id>
+<q>
+What is the output of the following C program?
+</q>
+<code>
+#include<stdio.h>
+int main() 
+{ 
+   int a[3] = {20,30,40}; 
+   printf("%d", *(a+1)); 
+}
+</code>
+<opt>20</opt>
+<opt>30</opt>
+<opt>40</opt>
+<opt>0</opt>
+<ans>30</ans>
+</end>
+
+<begin>
+<id>
+15014030
+</id>
+<q>
+Let x be an array. Which of the following is illegal? 
+</q>
+<code>
+</code>
+<opt>x++</opt>
+<opt>x+1</opt>
+<opt>x-1</opt>
+<opt>x+2</opt>
+<ans>x++</ans>
+</end>
+
+<begin>
+<id>
+15114030
+</id>
+<q>
+What would be the output of the following program, if the array 
+begins at address 1200? 
+</q>
+<code>
+#include<stdio.h>
+int main(void) 
+{ 
+   int arr[]={2,3,4,1,6}; 
+   printf("%d %d", *(arr+1), sizeof(arr)); 
+} 
+</code>
+<opt>2 10</opt>
+<opt>3 40</opt>
+<opt>3 20</opt>
+<opt>2 20</opt>
+<ans>3 20</ans>
+</end>
+
+<begin>
+<id>
+15204030
+</id>
+<q>
+Array is an example of _______ type memory allocation.
+</q>
+<code>
+</code>
+<opt>Run time</opt>
+<opt>Compile time</opt>
+<opt>Both A and B</opt>
+<opt>None of the above</opt>
+<ans>Compile time</ans>
+</end>
+
+<begin>
+<id>
+15314030
+</id>
+<q>
+The parameter passing mechanism for an array is-
+</q>
+<code>
+</code>
+<opt>call by name</opt>
+<opt>call by value</opt>
+<opt>call by reference</opt>
+<opt>call by function</opt>
+<ans>call by reference</ans>
+</end>
+
+<begin>
+<id>
+15414030
+</id>
+<q>
+In C, if you pass an array as an argument to a function, what actually gets passed?
+</q>
+<code>
+</code>
+<opt>Address of the last element of array</opt>
+<opt>Base address of the array</opt>
+<opt>First element of the array</opt>
+<opt>Value of elements in array</opt>
+<ans>Base address of the array</ans>
+</end>
+
+<begin>
+<id>
+15514030
+</id>
+<q>
+What are the Types of Arrays?
+</q>
+<code>
+</code>
+<opt>struct, enum</opt>
+<opt>int, float, char, double</opt>
+<opt>long</opt>
+<opt>All of these</opt>
+<ans>All of these</ans>
+</end>
+
+<begin>
+<id>
+15614030
+</id>
+<q>
+What is the maximun number of dimensions an array in C may have?
+</q>
+<code>
+</code>
+<opt>32</opt>
+<opt>Theoratically no limit. The only practical limits are memory size and compilers</opt>
+<opt>64</opt>
+<opt>128</opt>
+<ans>Theoratically no limit. The only practical limits are memory size and compilers</ans>
+</end>
+
+<begin>
+<id>
+15714030
+</id>
+<q>
+An array elements are always stored in __________ memory loactions.
+</q>
+<code>
+</code>
+<opt>Sequential</opt>
+<opt>Random</opt>
+<opt>Sequential and Random</opt>
+<opt>None of these</opt>
+<ans></ans>
+</end>
+
+<begin>
+<id>
+15814030
+</id>
+<q>
+If you don't initialize a static array,what would be the element set to?
+</q>
+<code>
+</code>
+<opt>0</opt>
+<opt>an undetermined value</opt>
+<opt>a floating point number</opt>
+<opt>the character constant '\0'</opt>
+<ans></ans>
+</end>
+
+<begin>
+<id>
+15914030
+</id>
+<q>
+Maximum number of elements in the array int a[2][3] is-
+</q>
+<code>
+</code>
+<opt>8</opt>
+<opt>6</opt>
+<opt>3</opt>
+<opt>5</opt>
+<ans>6</ans>
+</end>
+
+<begin>
+<id>
+16014030
+</id>
+<q>
+Array of Arrays is also called-
+</q>
+<code>
+</code>
+<opt>Multi Data Array</opt>
+<opt>Multi Size Array</opt>
+<opt>Multi Dimensional Array</opt>
+<opt>Multi Byte Array</opt>
+<ans>Multi Dimensional Array</ans>
+</end>
+
+<begin>
+<id>
+16114030
+</id>
+<q>
+What is the output of C program with multidimensional array?
+</q>
+<code>
+#include<stdio.h>
+int main(void)
+{
+    int arr[3][2] = {1,2,3,4,5,6};
+    printf("%d %d", arr[0][0], arr[2][1]);
+    return 0;
+}
+</code>
+<opt>2 5</opt>
+<opt>1 5</opt>
+<opt>1 6</opt>
+<opt>2 6</opt>
+<ans>1 6</ans>
+</end>
+
+<begin>
+<id>
+16214030
+</id>
+<q>
+What is the output of the following C program?
+</q>
+<code>
+int main()
+{
+    int squid[3][] = {6,5,4,3,2,1};
+    printf("%d %d", squid[0][0], squid[2][1]);
+    return 0;
+}
+</code>
+<opt>6 1</opt>
+<opt>6 2</opt>
+<opt>6 3</opt>
+<opt>Compiler error</opt>
+<ans>Compiler error</ans>
+</end>
+
+<begin>
+<id>
+16314030
+</id>
+<q>
+What is the output of the following C program?
+</q>
+<code>
+#include<stdio.h>
+int main(void)
+{
+    int ary[][3] = {6,5,4,3,2,1};
+    printf("%d %d", ary[0][0], ary[1][0]);
+    return 0;
+}
+</code>
+<opt>6 2</opt>
+<opt>6 3</opt>
+<opt>6 1</opt>
+<opt>Compiler error</opt>
+<ans>6 3</ans>
+</end>
+
+<begin>
+<id>
+16414030
+</id>
+<q>
+Choose a correct statement about a C Multidimensional array.
+</q>
+<code>
+</code>
+<opt>First Dimension size is optional when initializing the array at the same time.</opt>
+<opt>Last Dimension size is optional when initializing the array at the same time.</opt>
+<opt>It is a must to specify all dimensions of a multidimensional array.</opt>
+<opt>Memory locations of elements of a multidimensional array is not sequential.</opt>
+<ans>First Dimension size is optional when initializing the array at the same time.</ans>
+</end>
+
+<begin>
+<id>
+16514030
+</id>
+<q>
+A multidimensional array of dimension N is a collection of-
+</q>
+<code>
+</code>
+<opt>Single Dimensional Arrays</opt>
+<opt>N dimensional arrays</opt>
+<opt>N-1 dimensional arrays</opt>
+<opt>N-2 dimensional arrays</opt>
+<ans>N-1 dimensional arrays</ans>
+</end>
+
+<begin>
+<id>
+16614030
+</id>
+<q>
+Choose a correct statement with array pointers.
+</q>
+<code>
+</code>
+<opt>It is valid to add an integer number to an array pointer. Result can be anything.</opt>
+<opt>It is valid to subtract an integer number from array pointer. Result can be anything.</opt>
+<opt>Difference of pointers to two elements of an array gives the difference between their indexes.</opt>
+<opt>All of these</opt>
+<ans>All of these</ans>
+</end>
+
+<begin>
+<id>
+16714030
+</id>
+<q>
+What will be the output of the C program?
+</q>
+<code>
+#include<stdio.h>
+int main(void)
+{
+    int sos[] = {1, 3, 5};
+    printf("%d %d", sos[-1], sos[4]);
+    return 0;
+}
+</code>
+<opt>1 5</opt>
+<opt>0 0</opt>
+<opt>Compiler error</opt>
+<opt>None of these</opt>
+<ans>None of these</ans>
+</end>
+
+<begin>
+<id>
+16814030
+</id>
+<q>
+What is the function used to allocate memory to an array at run time without initializing array elements?
+</q>
+<code>
+</code>
+<opt>calloc()</opt>
+<opt>realloc()</opt>
+<opt>malloc()</opt>
+<opt>palloc()</opt>
+<ans>malloc()</ans>
+</end>
+
+
+
+
+

@@ -1,0 +1,371 @@
+<begin>
+<id>
+79614030
+</id>
+<q>
+The command line arguments are handled using?
+</q>
+<code>
+</code>
+<opt>void()</opt>
+<opt>main()</opt>
+<opt>header files</opt>
+<opt>macros</opt>
+<ans>main()</ans>
+</end>
+
+<begin>
+<id>
+79704030
+</id>
+<q>
+argc refers to the?
+</q>
+<code>
+</code>
+<opt>number of arguments passed</opt>
+<opt>a pointer array</opt>
+<opt>Both A and B</opt>
+<opt>None of the above</opt>
+<ans>number of arguments passed</ans>
+</end>
+
+<begin>
+<id>
+79804030
+</id>
+<q>
+argv[] is a?
+</q>
+<code>
+</code>
+<opt>a pointer array</opt>
+<opt>It points to each argument passed to the program.</opt>
+<opt>Both A and B</opt>
+<opt>None of the above</opt>
+<ans>Both A and B</ans>
+</end>
+
+<begin>
+<id>
+79914030
+</id>
+<q>
+What type of array is generally generated in Command-line argument?
+</q>
+<code>
+</code>
+<opt>Single dimensional array</opt>
+<opt>2-Dimensional Square Array</opt>
+<opt>Jagged Array</opt>
+<opt>2-Dimensional Rectangular Array</opt>
+<ans>Jagged Array</ans>
+</end>
+
+<begin>
+<id>
+80014030
+</id>
+<q>
+What is the output of the C program?
+</q>
+<code>
+#include <stdio.h>
+int main(int argc, char *argv[])
+{
+    printf("%d", argc);
+    return 0;
+}
+</code>
+<opt>0</opt>
+<opt>1</opt>
+<opt>Error</opt>
+<opt>Depends on the compiler</opt>
+<ans></ans>
+</end>
+
+<begin>
+<id>
+80114030
+</id>
+<q>
+argv[argc] is a
+</q>
+<code>
+</code>
+<opt>Character pointer</opt>
+<opt>Integer pointer</opt>
+<opt>NULL pointer</opt>
+<opt>None of these</opt>
+<ans>NULL pointer</ans>
+</end>
+
+<begin>
+<id>
+80214030
+</id>
+<q>
+Which of the following syntax is correct for command-line arguments?
+</q>
+<code>
+</code>
+<opt>int main(int argc, char *argv[])</opt>
+<opt>int main(char *argv[], int argc)</opt>
+<opt>int main(char argv[], int argc)</opt>
+<opt>int main(int argc, char argv[])</opt>
+<ans>int main(int argc, char *argv[])</ans>
+</end>
+
+<begin>
+<id>
+80314030
+</id>
+<q>
+The index of the last argument in command line arguments is
+</q>
+<code>
+</code>
+<opt>argc – 2</opt>
+<opt>argc + 1</opt>
+<opt>argc</opt>
+<opt>argc - 1</opt>
+<ans>argc - 1</ans>
+</end>
+
+<begin>
+<id>
+80414030
+</id>
+<q>
+What argv[0] and argv[1] denote in Command line Arguments ?
+</q>
+<code>
+</code>
+<opt>Pointers to first two command line argument supplied</opt>
+<opt>Program Name and pointer to first command line argument supplied</opt>
+<opt>File Name and Pointer to the 1st argument</opt>
+<opt>None of these</opt>
+<ans>Program Name and pointer to first command line argument supplied</ans>
+</end>
+
+<begin>
+<id>
+80514030
+</id>
+<q>	
+What do the 'c' and 'v' in argv stands for?
+</q>
+<code>
+</code>
+<opt>'c' means argument control 'v' means argument vector</opt>
+<opt>'c' means argument count 'v' means argument vertex</opt>
+<opt>'c' means argument count 'v' means argument vector</opt>
+<opt>'c' means argument configuration 'v' means argument visibility</opt>
+<ans>'c' means argument count 'v' means argument vector</ans>
+</end>
+
+<begin>
+<id>
+80614060
+</id>
+<q>
+What will be the output of the program (sample.c) given below if it is executed from the command line?
+cmd> sample one two three
+</q>
+<code>
+#include<stdio.h>
+
+int main(int argc, char *argv[])
+{
+    int i=0;
+    i+=strlen(argv[1]);
+    while(i>0)
+    {
+        printf("%c", argv[1][--i]);
+    }
+    return 0;
+}
+</code>
+<opt>three two one</opt>
+<opt>owt</opt>
+<opt>eno</opt>
+<opt>eerht</opt>
+<ans>eno</ans>
+</end>
+
+<begin>
+<id>
+80714060
+</id>
+<q>
+What will be the output of the program (sample.c) given below if it is executed from the command line?
+cmd> sample friday tuesday sunday
+</q>
+<code>
+#include<stdio.h>
+
+int main(int argc, char *argv[])
+{
+    printf("%c", **++argv);
+    return 0;
+}
+</code>
+<opt>s</opt>
+<opt>f</opt>
+<opt>sample</opt>
+<opt>friday</opt>
+<ans>f</ans>
+</end>
+
+<begin>
+<id>
+80814030
+</id>
+<q>
+A program that has no command line arguments will have argc
+</q>
+<code>
+</code>
+<opt>Zero</opt>
+<opt>Negative</opt>
+<opt>One</opt>
+<opt>Two</opt>
+<ans>One</ans>
+</end>
+
+<begin>
+<id>
+80814045
+</id>
+<q>
+What is the output of this C code (run without any commandline arguments)?
+</q>
+<code>
+#include <stdio.h>
+int main(int argc, char *argv[])
+{
+	while (argc--)
+	printf("%s\n", argv[argc]);
+	return 0;
+}
+</code>
+<opt>Compile time error</opt>
+<opt>Executable filename</opt>
+<opt>Segmentation fault</opt>
+<opt>Undefined</opt>
+<ans>Executable filename</ans>
+</end>
+
+<begin>
+<id>
+80914020
+</id>
+<q>
+The maximum combined length of the command-line arguments including the spaces between adjacent arguments is
+</q>
+<code>
+</code>
+<opt>128 characters</opt>
+<opt>256 characters</opt>
+<opt>67 characters</opt>
+<opt>Vary depending on operating system</opt>
+<ans>Vary depending on operating system</ans>
+</end>
+
+<begin>
+<id>
+81014030
+</id>
+<q>
+Which of the following is TRUE about argv?
+</q>
+<code>
+</code>
+<opt>It is an array of character pointers</opt>
+<opt>It is a pointer to an array of character pointers</opt>
+<opt>It is an array of strings</opt>
+<opt>None of these</opt>
+<ans>It is an array of character pointers</ans>
+</end>
+
+<begin>
+<id>
+81114020
+</id>
+<q>
+Which of the following statements are FALSE about the below code?
+</q>
+<code>
+int main(int ac, char *av[])
+{
+}
+</code>
+<opt>ac contains count of arguments supplied at command-line</opt>
+<opt>av[] contains addresses of arguments supplied at a command line</opt>
+<opt>In place of ac and av, argc and argv should be used.</opt>
+<opt>The variables ac and av are always local to main()</opt>
+<ans>In place of ac and av, argc and argv should be used.</ans>
+</end>
+
+<begin>
+<id>
+81214020
+</id>
+<q>
+What do the 'c' and 'v' in argv stands for?
+</q>
+<code>
+</code>
+<opt>'c' means argument control 'v' means argument vector</opt>
+<opt>'c' means argument count 'v' means argument vertex</opt>
+<opt>'c' means argument count 'v' means argument vector</opt>
+<opt>'c' means argument configuration 'v' means argument visibility</opt>
+<ans>'c' means argument count 'v' means argument vector</ans>
+</end>
+
+<begin>
+<id>
+81314030
+</id>
+<q>
+The following 'C' program (Prog) is run from the command line as "Prog friday tuesday Sunday". what would be the output?
+</q>
+<code>
+#include<stdio.h>
+int main (int argc, char*argv[])
+{
+	printf("%c", **++argv);
+	return 0;
+}
+</code>
+<opt>m</opt>
+<opt>f</opt>
+<opt>prog</opt>
+<opt>friday</opt>
+<ans>f</ans>
+</end>
+
+<begin>
+<id>
+81314060
+</id>
+<q>
+The following program (HelloProg) is run from the command line as HelloProg 1 2 3. what would be the output ?
+</q>
+<code>
+#include
+int main (int argc, char *argv[])
+{
+	int i, j = 0;
+	for (i = 0; i < argc; i++)
+		j = j + atoi(argv[i]);
+	printf ("%d", j);
+	return 0;
+}
+</code>
+<opt>123</opt>
+<opt>Error</opt>
+<opt>6</opt>
+<opt>3</opt>
+<ans>6</ans>
+</end>

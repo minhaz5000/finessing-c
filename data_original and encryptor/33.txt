@@ -1,0 +1,305 @@
+<begin>
+<id>
+73114030
+</id>
+<q>
+Which header file should be included to use functions like malloc() and calloc()?
+</q>
+<code>
+</code>
+<opt>memory.h</opt>
+<opt>stdlib.h</opt>
+<opt>stdio.h</opt>
+<opt>dos.h</opt>
+<ans>stdlib.h</ans>
+</end>
+
+<begin>
+<id>
+73214030
+</id>
+<q>
+What function should be used to free the memory allocated by calloc()?
+</q>
+<code>
+</code>
+<opt>dealloc();</opt>
+<opt>malloc(variable_name, 0)</opt>
+<opt>free();</opt>
+<opt>memalloc(variable_name, 0)</opt>
+<ans>free();</ans>
+</end>
+
+<begin>
+<id>
+73314030
+</id>
+<q>
+Specify the 2 library functions to dynamically allocate memory?
+</q>
+<code>
+</code>
+<opt>malloc() and memalloc()</opt>
+<opt>alloc() and memalloc()</opt>
+<opt>malloc() and calloc()</opt>
+<opt>memalloc() and faralloc()</opt>
+<ans>malloc() and calloc()</ans>
+</end>
+
+<begin>
+<id>
+73404030
+</id>
+<q>
+Memory allocation using malloc() is done in?
+</q>
+<code>
+</code>
+<opt>Static area</opt>
+<opt>Stack area</opt>
+<opt>Heap area</opt>
+<opt>Both B & C</opt>
+<ans>Heap area</ans>
+</end>
+
+<begin>
+<id>
+73514030
+</id>
+<q>
+Local variables are stored in an area called
+</q>
+<code>
+</code>
+<opt>Heap</opt>
+<opt>Permanennt storage area</opt>
+<opt>Free memory</opt>
+<opt>Stack</opt>
+<ans>Stack</ans>
+</end>
+
+<begin>
+<id>
+73614030
+</id>
+<q>
+Work of malloc is
+</q>
+<code>
+</code>
+<opt>Allocates a block of memory and clears it</opt>
+<opt>Allocates a block of memory but doesn't initialize it</opt>
+<opt>Resizes a previously allocated block of memory</opt>
+<opt>None of these</opt>
+<ans>Allocates a block of memory but doesn't initialize it</ans>
+</end>
+
+<begin>
+<id>
+73714030
+</id>
+<q>
+Calloc
+</q>
+<code>
+</code>
+<opt>Allocates a block of memory and clears it</opt>
+<opt>Allocates a block of memory but doesn't initialize it</opt>
+<opt>Resizes a previously allocated block of memory</opt>
+<opt>None of these</opt>
+<ans>Allocates a block of memory and clears it</ans>
+</end>
+
+<begin>
+<id>
+73814030
+</id>
+<q>
+Realloc
+</q>
+<code>
+</code>
+<opt>Allocates a block of memory and clears it</opt>
+<opt>Resizes a previously allocated block of memory</opt>
+<opt>Allocates a block of memory but doesn't initialize it</opt>
+<opt>None of these</opt>
+<ans>Resizes a previously allocated block of memory</ans>
+</end>
+
+<begin>
+<id>
+73914030
+</id>
+<q>
+The NULL macro is defined in 
+</q>
+<code>
+</code>
+<opt><locale.h></opt>
+<opt><stddef.h></opt>
+<opt><stdlib.h></opt>
+<opt>All of these</opt>
+<ans>All of these</ans>
+</end>
+
+<begin>
+<id>
+74014030
+</id>
+<q>
+Which is the correct prototype of the malloc function?
+</q>
+<code>
+</code>
+<opt>void malloc(size_t size)</opt>
+<opt>void *malloc(size_t size)</opt>
+<opt>int *malloc(size_t size)</opt>
+<opt>char *malloc(size_t size)</opt>
+<ans>void *malloc(size_t size)</ans>
+</end>
+
+<begin>
+<id>
+74114030
+</id>
+<q>
+The prototype of the free function is
+</q>
+<code>
+</code>
+<opt>int free(int *ptr)</opt>
+<opt>void free(void *ptr)</opt>
+<opt>void free(char *ptr)</opt>
+<opt>char free(char *ptr)</opt>
+<ans>void free(void *ptr)</ans>
+</end>
+
+<begin>
+<id>
+74214030
+</id>
+<q>
+Choose the statement which is incorrect with respect to dynamic memory allocation.
+</q>
+<code>
+</code>
+<opt>Memory is allocated in a less structured area of memory known as heap</opt>
+<opt>Used for unpredictable memory requirements</opt>
+<opt>Execution of the program is faster than that of static memory allocation</opt>
+<opt>Allocated memory can be changed during the runtime of the program based on the requirement of the program</opt>
+<ans>Execution of the program is faster than that of static memory allocation</ans>
+</end>
+
+<begin>
+<id>
+74314030
+</id>
+<q>
+The type of linked list in which the node does not contain any pointer or reference to the previous node is
+</q>
+<code>
+</code>
+<opt>Circularly singly linked list</opt>
+<opt>Singly linked list</opt>
+<opt>Circularly doubly linked list</opt>
+<opt>Doubly linked list</opt>
+<ans>Singly linked list</ans>
+</end>
+
+<begin>
+<id>
+74414030
+</id>
+<q>
+What is the problem with following code?
+</q>
+<code>
+#include<stdio.h>
+int main()
+{
+    int *p = (int *)malloc(sizeof(int));
+    p = NULL;
+    free(p);
+}
+</code>
+<opt>Compiler Error: free can't be applied on NULL pointer</opt>
+<opt>Memory Leak</opt>
+<opt>Dangling Pointer</opt>
+<opt>The program may crash as free() is called for NULL pointer</opt>
+<ans>Memory Leak</ans>
+</end>
+
+<begin>
+<id>
+74514030
+</id>
+<q>
+What is the output?
+</q>
+<code>
+#include<stdio.h>
+#include<stdlib.h> 
+int main()
+{
+   int *ptr;
+   ptr = calloc(1, sizeof(int));
+   *ptr = 10;
+   printf("%d\n",*ptr);
+}
+</code>
+<opt>0</opt>
+<opt>4</opt>
+<opt>10</opt>
+<opt>14</opt>
+<ans>10</ans>
+</end>
+
+<begin>
+<id>
+74614030
+</id>
+<q>
+Consider the following program, where are i, j and k are stored in memory?
+</q>
+<code>
+#include<stdio.h>
+#include<stdlib.h>
+int i;
+int main()
+{
+int j;
+int *k = malloc (sizeof(int));
+}
+</code>
+<opt>i, j and *k are stored in stack segment</opt>
+<opt>i is stored in BSS part of data segment, j is stored in stack segment. *k is stored on heap.</opt>
+<opt>j is stored in BSS part of data segment, i is stored in stack segment. *k is stored on heap.</opt>
+<opt>i and j are stored in stack segment. *k is stored on heap.</opt>
+<ans>i is stored in BSS part of data segment, j is stored in stack segment. *k is stored on heap.</ans>
+</end>
+
+<begin>
+<id>
+74714045
+</id>
+<q>
+What is the output of the C program?
+</q>
+<code>
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+   int *mptr, *cptr;
+   mptr = (int*)malloc(sizeof(int));
+   printf("%d ",*mptr); 
+   cptr = (int*)calloc(sizeof(int),1);
+   printf("%d",*cptr);
+}
+</code>
+<opt>0 0</opt>
+<opt>Garbage-value 0</opt>
+<opt>Garbage values both</opt>
+<opt>0 Garbage-value</opt>
+<ans>Garbage-value 0</ans>
+</end>

@@ -1,0 +1,567 @@
+<begin>
+<id>
+53614030
+</id>
+<q>
+What is the similarity between a structure, union and enumeration?
+</q>
+<code>
+</code>
+<opt>All of them let you define new values</opt>
+<opt>All of them let you define new data types</opt>
+<opt>All of them let you define new pointers</opt>
+<opt>All of them let you define new structures</opt>
+<ans>All of them let you define new data types</ans>
+</end>
+
+<begin>
+<id>
+53714030
+</id>
+<q>
+Which of the following accesses a variable in structure b?
+</q>
+<code>
+</code>
+<opt>b->var;</opt>
+<opt>b.var;</opt>
+<opt>b-var;</opt>
+<opt>b>var;</opt>
+<ans>b.var;</ans>
+</end>
+
+<begin>
+<id>
+53814030
+</id>
+<q>
+What is a structure in C language?
+</q>
+<code>
+</code>
+<opt>A structure is a collection of elements that can be of same data type.</opt>
+<opt>A structure is a collection of elements that can be of different data type.</opt>
+<opt>Elements of a structure are called members.</opt>
+<opt>All of these</opt>
+<ans>All of these</ans>
+</end>
+
+<begin>
+<id>
+53914030
+</id>
+<q>
+What is the size of a C structure?
+</q>
+<code>
+</code>
+<opt>C structure is always 128 bytes.</opt>
+<opt>Size of C structure is the total bytes of all elements of structure.</opt>
+<opt>Size of C structure is the size of largest element.</opt>
+<opt>None of these</opt>
+<ans>Size of C structure is the total bytes of all elements of structure.</ans>
+</end>
+
+<begin>
+<id>
+54014045
+</id>
+<q>
+What is the output of the C program?
+</q>
+<code>
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    struct hotel
+    {
+        int items;
+        char name[10];
+    }a;
+
+    strcpy(a.name, "TAJ");
+    a.items=10;
+    printf("%s", a.name);
+    return 0;
+}
+</code>
+<opt>10</opt>
+<opt>TAJ</opt>
+<opt>TAJ10</opt>
+<opt>10TAJ</opt>
+<ans>TAJ</ans>
+</end>
+
+<begin>
+<id>
+54114030
+</id>
+<q>
+What is the output of the C program?
+</q>
+<code>
+int main()
+{
+    struct ship
+    {
+        int size;
+        char color[10];
+    } boat1, boat2;
+    boat1.size=10;
+    boat2 = boat1;
+    printf("boat2=%d",boat2.size);
+    return 0;
+}
+</code>
+<opt>boat2=0</opt>
+<opt>boat2=-1</opt>
+<opt>boat2=10</opt>
+<opt>Compilation error</opt>
+<ans>boat2=10</ans>
+</end>
+
+<begin>
+<id>
+54214030
+</id>
+<q>
+What is the output of C program with structures?
+</q>
+<code>
+int main()
+{
+    struct ship
+    {
+        char color[10];
+    } boat1, boat2;
+    strcpy(boat1.color,"RED");
+    printf("%s ",boat1.color);
+    boat2 = boat1;
+    strcpy(boat2.color,"YELLOW");
+    printf("%s",boat1.color);
+    return 0;
+}
+</code>
+<opt>RED RED</opt>
+<opt>RED YELLOW</opt>
+<opt>YELLOW YELLOW</opt>
+<opt>YELLOW RED</opt>
+<ans>RED RED</ans>
+</end>
+
+<begin>
+<id>
+54314030
+</id>
+<q>
+What is the output of C program with structures?
+</q>
+<code>
+int main()
+{
+    struct tree
+    {
+        int h;
+    };
+    struct tree tree1;
+    tree1.h=10;
+    printf("Height=%d",tree1.h);
+    return 0;
+}
+</code>
+<opt>Height=0</opt>
+<opt>Height=10</opt>
+<opt>Height=1</opt>
+<opt>Compiler error</opt>
+<ans>Height=10</ans>
+</end>
+
+<begin>
+<id>
+54414030
+</id>
+<q>
+What is the output of C program with structures?
+</q>
+<code>
+int main()
+{
+    struct tree
+    {
+        int h;
+        int w;
+    };
+    struct tree tree1={10};
+    printf("%d ",tree1.w);
+    printf("%d",tree1.h);
+    return 0;
+}
+</code>
+<opt>0 0</opt>
+<opt>10 0</opt>
+<opt>0 10</opt>
+<opt>10 10</opt>
+<ans>0 10</ans>
+</end>
+
+<begin>
+<id>
+54514030
+</id>
+<q>
+What will be the size of the following structure?
+</q>
+<code>
+#include <stdio.h>
+struct temp
+{
+     int a[10];
+     char p;
+};
+</code>
+<opt>41</opt>
+<opt>44</opt>
+<opt>5</opt>
+<opt>11</opt>
+<ans>44</ans>
+</end>
+
+<begin>
+<id>
+54614030
+</id>
+<q>
+Which among the following is never possible in C when members in a structure are same as that in a union?
+//Let P be a structure
+//Let Q be a union
+</q>
+<code>
+</code>
+<opt>sizeof(P) is greater than sizeof(Q)</opt>
+<opt>sizeof(P) is equal to sizeof(Q)</opt>
+<opt>sizeof(P) is less than to sizeof(Q)</opt>
+<opt>None of these</opt>
+<ans>sizeof(P) is less than to sizeof(Q)</ans>
+</end>
+
+<begin>
+<id>
+54714030
+</id>
+<q>
+Which of the following cannot be a structure member?
+</q>
+<code>
+</code>
+<opt>Function</opt>
+<opt>Array</opt>
+<opt>Structure</opt>
+<opt>None of these</opt>
+<ans>Function</ans>
+</end>
+
+<begin>
+<id>
+54814030
+</id>
+<q>
+The size of the following union, where an int occupies 4 bytes of memory is
+</q>
+<code>
+union quiz
+{
+  float x;
+  int y;
+  char z[10];
+};
+</code>
+<opt>10 byte</opt>
+<opt>8 byte</opt>
+<opt>22 byte</opt>
+<opt>18 byte</opt>
+<ans>10 byte</ans>
+</end>
+
+<begin>
+<id>
+54904030
+</id>
+<q>
+Members of a union are accessed as________________.
+</q>
+<code>
+</code>
+<opt>union-name.member</opt>
+<opt>union-pointer->member</opt>
+<opt>Both A & B</opt>
+<opt>None of these</opt>
+<ans>Both A & B</ans>
+</end>
+
+<begin>
+<id>
+55014030
+</id>
+<q>
+Size of union is size of the longest element in the union
+</q>
+<code>
+</code>
+<opt>Yes</opt>
+<opt>No</opt>
+<opt>May be</opt>
+<opt>Can't say</opt>
+<ans>Yes</ans>
+</end>
+
+<begin>
+<id>
+55114045
+</id>
+<q>
+What is the output of the C program?
+</q>
+<code>
+#include<stdio.h>
+int main()
+{
+    union var
+    {
+        int a;
+        int b;
+    };
+    union var v;
+    v.a=10;
+    v.b=20;
+    printf("%d\n", v.a);
+    return 0;
+}
+</code>
+<opt>20</opt>
+<opt>10</opt>
+<opt>30</opt>
+<opt>0</opt>
+<ans>20</ans>
+</end>
+
+<begin>
+<id>
+55214045
+</id>
+<q>
+Comment on the following union declaration.Which member of the union will be active after REF LINE?
+</q>
+<code>
+#include<stdio.h>
+   union temp
+   {
+     int a;
+     float b;
+     char c;
+   };
+union temp s = {1,2.5,'A'}; //REF LINE
+</code>
+<opt>a</opt>
+<opt>b</opt>
+<opt>c</opt>
+<opt>Such declaration is illegal</opt>
+<ans>a</ans>
+</end>
+
+<begin>
+<id>
+55314060
+</id>
+<q>
+What would be the size of the following union declaration?
+(Assuming size of double = 8, size of int = 4, size of char = 1)
+</q>
+<code>
+union Temp
+{
+   double a;
+   int b[10];
+   char c;
+}u;
+</code>
+<opt>4</opt>
+<opt>8</opt>
+<opt>40</opt>
+<opt>80</opt>
+<ans>40</ans>
+</end>
+
+<begin>
+<id>
+55414030
+</id>
+<q>
+Enumeration (or enum) is a ______ data type in C?
+</q>
+<code>
+</code>
+<opt>built-in</opt>
+<opt>user defined</opt>
+<opt>libary</opt>
+<opt>None of these</opt>
+<ans>user defined</ans>
+</end>
+
+<begin>
+<id>
+55514030
+</id>
+<q>
+If we do not explicitly assign values to enum names, the compiler by default assigns values to?
+</q>
+<code>
+</code>
+<opt>1</opt>
+<opt>-1</opt>
+<opt>0</opt>
+<opt>Garbage value</opt>
+<ans>0</ans>
+</end>
+
+<begin>
+<id>
+55614060
+</id>
+<q>
+What will be the output of the program ?
+</q>
+<code>
+#include<stdio.h>
+
+int main()
+{
+    enum days {MON=-1, TUE, WED=6, THU, FRI, SAT};
+    printf("%d, %d, %d, %d, %d, %d\n", MON, TUE, WED, THU, FRI, SAT);
+    return 0;
+}
+</code>
+<opt>-1,2,6,3,4,5</opt>
+<opt>-1,0,6,0,0,0</opt>
+<opt>-1,0,6,7,8,9</opt>
+<opt>-1,0,6,5,4,3</opt>
+<ans>-1,0,6,7,8,9</ans>
+</end>
+
+<begin>
+<id>
+55714030
+</id>
+<q>
+What is the correct syntax of enum?
+</q>
+<code>
+</code>
+<opt>enumflag{constant1, constant2, constant3, ....... };</opt>
+<opt>enum flag[constant1, constant2, constant3, ....... ];</opt>
+<opt>enum flag(constant1, constant2, constant3, ....... );</opt>
+<opt>enum flag{constant1, constant2, constant3, ....... };</opt>
+<ans>enum flag{constant1, constant2, constant3, ....... };</ans>
+</end>
+
+<begin>
+<id>
+55814030
+</id>
+<q>
+String handling functions such as strcmp(), strcpy() etc can be used with enumerated types.
+</q>
+<code>
+</code>
+<opt>True</opt>
+<opt>False</opt>
+<opt>May be</opt>
+<opt>Can't say</opt>
+<ans>False</ans>
+</end>
+
+<begin>
+<id>
+55914030
+</id>
+<q>
+What will be the output of the C program?
+</q>
+<code>
+#include<stdio.h>
+enum num
+{
+	a=2,
+    b=3.98
+};
+
+enum num s;
+
+int main()
+{
+	printf("%d%d",a,b);
+}
+</code>
+<opt>2 3</opt>
+<opt>2 4</opt>
+<opt>2 3.98</opt>
+<opt>Error</opt>
+<ans>Error</ans>
+</end>
+
+<begin>
+<id>
+56014030
+</id>
+<q>
+What is the output of the C program?
+</q>
+<code>
+enum num
+{
+	a,
+    b,
+    c = 5
+};
+enum num s;
+
+int main()
+{
+	c++;
+	printf("%d",c);
+}
+
+</code>
+<opt>5</opt>
+<opt>6</opt>
+<opt>0</opt>
+<opt>Error</opt>
+<ans>Error</ans>
+</end>
+
+<begin>
+<id>
+56114060
+</id>
+<q>
+Point out the error(if any) in the following C code?
+</q>
+<code>
+#include<stdio.h>
+enum hii
+{
+	a,b,c;
+};
+
+int main()
+{
+	enum hii p;
+	printf("%d",p);
+}
+</code>
+<opt>No error</opt>
+<opt>Error in the statement:enum hii p;</opt>
+<opt>Error in the statement:a,b,c;</opt>
+<opt>Error in the statement:printf("%d",p);</opt>
+<ans>Error in the statement:a,b,c;</ans>
+</end>

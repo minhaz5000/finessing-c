@@ -1,0 +1,361 @@
+<begin>
+<id>
+00114030
+</id>
+<q>
+The format identifier '%i' is also used for _____ data type?
+</q>
+<code>
+</code>
+<opt>char</opt>
+<opt>int</opt>
+<opt>float</opt>
+<opt>double</opt>
+<ans>int</ans>
+</end>
+
+<begin>
+<id>
+00214030
+</id>
+<q>
+Which of the following is a User-defined data type?
+</q>
+<code>
+</code>
+<opt>typedef int Boolean;</opt>
+<opt>typedef enum {Mon, Tue, Wed, Thu, Fri} Workdays;</opt>
+<opt>struct {char name[10], int age};</opt>
+<opt>All of these</opt>
+<ans>All of these</ans>
+</end>
+
+<begin>
+<id>
+00314030
+</id>
+<q>
+What is the size of an int data type?
+</q>
+<code>
+</code>
+<opt>8 Bytes</opt>
+<opt>4 Bytes</opt>
+<opt>Cannot be determined</opt>
+<opt>Depends on the system/compiler</opt>
+<ans>Depends on the system/compiler</ans>
+</end>
+
+<begin>
+<id>
+00414030
+</id>
+<q>
+What is the output of the following code?
+</q>
+<code>
+#include<stdio.h>
+
+int main()
+{
+	char chr;
+	chr = 128;
+	printf("%d\n", chr);
+	return 0;
+}
+</code>
+<opt>128</opt>
+<opt>-128</opt>
+<opt>Depends on the compiler</opt>
+<opt>None of these</opt>
+<ans>-128</ans>
+</end>
+
+<begin>
+<id>
+00314030
+</id>
+<q>
+What is the size of an int data type?
+</q>
+<code>
+</code>
+<opt>8 Bytes</opt>
+<opt>4 Bytes</opt>
+<opt>Cannot be determined</opt>
+<opt>Depends on the system/compiler</opt>
+<ans>Depends on the system/compiler</ans>
+</end>
+
+<begin>
+<id>
+00414030
+</id>
+<q>
+Which is correct with respect to size of the datatypes?
+</q>
+<code>
+</code>
+<opt>char > int > float</opt>
+<opt>int > char > float</opt>
+<opt>char < int < double</opt>
+<opt>double > char > int</opt>
+<ans>char < int < double</ans>
+</end>
+
+<begin>
+<id>
+00514030
+</id>
+<q>
+Which of the datatypes have size that is variable?
+</q>
+<code>
+</code>
+<opt>int</opt>
+<opt>float</opt>
+<opt>struct</opt>
+<opt>double</opt>
+<ans>struct</ans>
+</end>
+
+<begin>
+<id>
+00614030
+</id>
+<q>
+What will be the output of the C program?
+</q>
+<code>
+#include<stdio.h>
+int main()
+{
+	extern int num;
+	num = 5;
+	printf("%d", num);
+	return 0;
+}
+</code>
+<opt>Compilation Error</opt>
+<opt>Linker Error</opt>
+<opt>Runtime Error</opt>
+<opt>5</opt>
+<ans>Linker Error</ans>
+</end>
+
+<begin>
+<id>
+00714030
+</id>
+<q>
+What will be the output of the following C program?
+</q>
+<code>
+#include<stdio.h>
+int main()
+{
+	float a = 5.0;
+	printf ("Result is = %d ", (24 / 5) * a);
+	return 0;
+}
+</code>
+<opt>Runtime Error</opt>
+<opt>20.000000</opt>
+<opt>20</opt>
+<opt>0</opt>
+<ans>0</ans>
+</end>
+
+<begin>
+<id>
+00814030
+</id>
+<q>
+What will be the output of the C program?
+</q>
+<code>
+#include<stdio.h>
+int main()
+{
+	char num = 127;
+	num = num + 1;
+	printf("%d", num);
+	return 0;
+}
+</code>
+<opt>garbage value</opt>
+<opt>128</opt>
+<opt>-128</opt>
+<opt>1</opt>
+<ans>-128</ans>
+</end>
+
+<begin>
+<id>
+00914030
+</id>
+<q>
+Predict the output of the code.
+</q>
+<code>
+#include <stdio.h>
+int main()
+{
+   float c = 5.0;
+   printf ("Temperature in Fahrenheit is %.2f", (9/5)*c + 32);
+   return 0;
+}
+</code>
+<opt>Temperature in Fahrenheit is 41.00</opt>
+<opt>Temperature in Fahrenheit is 37.00</opt>
+<opt>Temperature in Fahrenheit is 37</opt>
+<opt>Temperature in Fahrenheit is 41</opt>
+<ans>Temperature in Fahrenheit is 37.00</ans>
+</end>
+
+<begin>
+<id>
+01014030
+</id>
+<q>
+Predict the output of the code.
+</q>
+<code>
+#include <stdio.h>
+int main()
+{
+    char a = 012;
+ 
+    printf("%d", a);
+    return 0;
+}
+</code>
+<opt>Compiler Error</opt>
+<opt>12</opt>
+<opt>10</opt>
+<opt>Empty</opt>
+<ans>10</ans>
+</end>
+
+<begin>
+<id>
+01114030
+</id>
+<q>
+Which of the following is not a valid declaration in C?
+</q>
+<code>
+</code>
+<opt>signed short x</opt>
+<opt>short x</opt>
+<opt>short int x</opt>
+<opt>All are valid</opt>
+<ans></ans>
+</end>
+
+<begin>
+<id>
+01214030
+</id>
+<q>
+1. Array is ______ datatype in C Programming language.
+</q>
+<code>
+</code>
+<opt>Basic Data type</opt>
+<opt>Primitive Data type</opt>
+<opt>Derived Data type</opt>
+<opt>None of these</opt>
+<ans>Derived Data type</ans>
+</end>
+
+<begin>
+<id>
+01314030
+</id>
+<q>
+ If you do not specify a storage class for a Variable?
+</q>
+<code>
+</code>
+<opt>You get a compiler warning</opt>
+<opt>Output is null always</opt>
+<opt>You get compiler error</opt>
+<opt>None of the these</opt>
+<ans>None of the these</ans>
+</end>
+
+<begin>
+<id>
+01414030
+</id>
+<q>
+What is the output of this program?
+</q>
+<code>
+#include <stdio.h>
+int main() 
+{
+  int x = 10;
+  float x = 10.0;
+  printf("%d",x);
+  return 0;
+}
+</code>
+<opt>10</opt>
+<opt>10.000000</opt>
+<opt>Garbage value</opt>
+<opt>Compilation Error</opt>
+<ans>Compilation Error</ans>
+</end>
+
+<begin>
+<id>
+01514030
+</id>
+<q>
+Which of the following is true for variable names in C?
+</q>
+<code>
+</code>
+<opt>Variable can be of any length</opt>
+<opt>Reserved Word can be used as variable name</opt>
+<opt>They can contain alphanumeric characters as well as special characters</opt>
+<opt>Variable names cannot start with a digit</opt>
+<ans>Variable names cannot start with a digit</ans>
+</end>
+
+<begin>
+<id>
+01514030
+</id>
+<q>
+Predict the Output of the following program.
+</q>
+<code>
+#include <stdio.h>
+int main()
+{
+    if (sizeof(int) > -1)
+        printf("Yes");
+    else
+        printf("No");
+    return 0;
+}
+</code>
+<opt>Yes</opt>
+<opt>No</opt>
+<opt>Compiler Error</opt>
+<opt>Runtime Error</opt>
+<ans>No</ans>
+</end>
+
+
+
+
+
+
+
+
+
+

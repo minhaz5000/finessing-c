@@ -1,0 +1,446 @@
+<begin>
+<id>
+27614030
+</id>
+<q>
+Which are not looping structures?
+</q>
+<code>
+</code>
+<opt>For loop</opt>
+<opt>While loop</opt>
+<opt>Do...while loop</opt>
+<opt>if...else</opt>
+<ans>if...else</ans>
+</end>
+
+<begin>
+<id>
+27704030
+</id>
+<q>
+Which keyword can be used for coming out of recursion?
+</q>
+<code>
+</code>
+<opt>break</opt>
+<opt>return</opt>
+<opt>exit</opt>
+<opt>Both A & C</opt>
+<ans>return</ans>
+</end>
+
+<begin>
+<id>
+27814060
+</id>
+<q>
+What is the output of the following C program?
+</q>
+<code>
+#include<stdio.h>
+int main()
+{
+
+   int i = 0, j = 0;
+   for (i = 0;i < 5; i++)
+   {
+      for (j = 0;j < 4; j++)
+      {
+           if (i > 1)
+           break;
+      }
+   printf("Hi \n");
+   }
+}
+</code>
+<opt>Hi is printed 4 times</opt>
+<opt>Hi is printed 6 times</opt>
+<opt>Hi is printed 5 times</opt>
+<opt>Hi is printed 7 times</opt>
+<ans></ans>
+</end>
+
+<begin>
+<id>
+27914060
+</id>
+<q>
+What is the output of the following C program?
+</q>
+<code>
+int main()
+{
+	int i=5;
+    switch(i)
+    {
+      case 3: printf("three");
+      case 4: printf("four");
+      case 5: printf("five");
+      case 6: printf("six");break;
+      case 7: printf("seven");
+      default: printf("Hello");
+    } 
+}
+</code>
+<opt>threefourfive</opt>
+<opt>fivesix</opt>
+<opt>sevenHello</opt>
+<opt>sixsevenHello</opt>
+<ans>fivesix</ans>
+</end>
+
+<begin>
+<id>
+28014030
+</id>
+<q>
+Continue statement-
+</q>
+<code>
+</code>
+<opt>Breaks loop and goes to next statement after loop</opt>
+<opt>Starts from beginning of program</opt>
+<opt>exits the program</opt>
+<opt>does not break loop but starts new iteration</opt>
+<ans>does not break loop but starts new iteration</ans>
+</end>
+
+<begin>
+<id>
+28114060
+</id>
+<q>
+What is the output of the following C program?
+</q>
+<code>
+#include<stdio.h>
+int main()
+{ 
+    int i;
+    for(i=1;i<=5;i++);
+    printf("%d",i);
+} 
+</code>
+<opt>12345</opt>
+<opt>5</opt>
+<opt>6</opt>
+<opt>56</opt>
+<ans>6</ans>
+</end>
+
+<begin>
+<id>
+28214030
+</id>
+<q>
+Find the output of the C code.
+</q>
+<code>
+int main()
+{
+   int i = 0;
+   if(i == 0)
+   {  
+      printf("Hello");
+      break;
+   }
+}
+</code>
+<opt>Hello</opt>
+<opt>Compile time error</opt>
+<opt>Hello is printed infinite times</opt>
+<opt>Garbage value</opt>
+<ans>Compile time error</ans>
+</end>
+
+<begin>
+<id>
+28314060
+</id>
+<q>
+What is the output of the following C program?
+</q>
+<code>
+#include<stdio.h>
+int main()
+{
+    if(-5)
+     printf("a");
+    else
+     printf("c");
+     printf("d");
+    return 0;
+}
+</code>
+<opt>cd</opt>
+<opt>ad</opt>
+<opt>a</opt>
+<opt>c</opt>
+<ans>ad</ans>
+</end>
+
+<begin>
+<id>
+28414060
+</id>
+<q>
+Point out the error,if any,in the for loop.
+</q>
+<code>
+#include<stdio.h>
+int main()
+{
+    int i=1;
+    for (;;)
+    {
+      printf("%d",i++);
+      if(i>10)
+      break;
+    }
+}
+</code>
+<opt>The condition in the for loop is a must.</opt>
+<opt>The two semicolons should be dropped.</opt>
+<opt>The for loop should be replaced by a while loop.</opt>
+<opt>No error.</opt>
+<ans>No error.</ans>
+</end>
+
+<begin>
+<id>
+28514060
+</id>
+<q>
+Point out the error,if any,in the while loop. 
+</q>
+<code>
+#include<stdio.h>
+int main()
+{
+    int i=1;
+    while ()
+    {
+      printf("%d",i++);
+      if(i>10)
+      break;
+    }
+}
+</code>
+<opt>There should be at least a semicolon in the while( ).</opt>
+<opt>The while loop should be replaced by a for loop.</opt>
+<opt>The condition in the while loop is a must.</opt>
+<opt>No error</opt>
+<ans>The condition in the while loop is a must.</ans>
+</end>
+
+<begin>
+<id>
+28614060
+</id>
+<q>
+What is the output of the C program?
+</q>
+<code>
+#include<stdio.h>
+int main()
+{
+
+  printf("Before continue ");
+  continue;
+  printf("after continue\n");
+}
+</code>
+<opt>Before continue after continue</opt>
+<opt>Compile time error</opt>
+<opt>Before continue</opt>
+<opt>after continue</opt>
+<ans>Compile time error</ans>
+</end>
+
+<begin>
+<id>
+28714060
+</id>
+<q>
+What is the output of the C program?
+</q>
+<code>
+#include<stdio.h>
+int main()
+{
+  if(-5)
+  {
+    printf("a");
+    printf("b");
+  }
+  else
+  {
+    printf("c");
+    printf("d");
+  }
+  return 0;
+}
+</code>
+<opt>cd</opt>
+<opt>ab</opt>
+<opt>abd</opt>
+<opt>Compile time error</opt>
+<ans>ab</ans>
+</end>
+
+<begin>
+<id>
+28814060
+</id>
+<q>
+What is the output of the C program?
+</q>
+<code>
+#include<stdio.h>
+int main()
+{
+  if(-5);
+  {
+    printf("a");
+    printf("b");
+  }
+  else
+  {
+    printf("c");
+    printf("d");
+  }
+  return 0;
+}
+</code>
+<opt>ab</opt>
+<opt>cd</opt>
+<opt>Compile time error</opt>
+<opt>abd</opt>
+<ans>Compile time error</ans>
+</end>
+
+<begin>
+<id>
+28914060
+</id>
+<q>
+What is the output of the C program?
+</q>
+<code>
+#include<stdio.h>
+int main()
+{
+  if(-5)
+  {
+    printf("a");
+    printf("b");
+  }
+  else;
+  {
+    printf("c");
+    printf("d");
+  }
+  return 0;
+}
+</code>
+<opt>ab</opt>
+<opt>abd</opt>
+<opt>Compile time error</opt>
+<opt>abcd</opt>
+<ans>abcd</ans>
+</end>
+
+<begin>
+<id>
+29014060
+</id>
+<q>
+What is the output of the C program?
+</q>
+<code>
+#include<stdio.h>
+int main()
+{
+  if(sizeof('a')==sizeof("abc"))
+    printf("a");
+  else 
+    printf("b");
+  return 0;
+}
+</code>
+<opt>error</opt>
+<opt>b</opt>
+<opt>ab</opt>
+<opt>a</opt>
+<ans>a</ans>
+</end>
+
+<begin>
+<id>
+29114060
+</id>
+<q>
+What is the output of the C program?
+</q>
+<code>
+#include<stdio.h>
+int main()
+{
+  int x=5;
+  if (x>1)
+    printf("Hello");
+  if (x==5)
+    printf("Hii");
+  else 
+    printf("No");  
+  return 0;
+}
+</code>
+<opt>Hello</opt>
+<opt>Hii</opt>
+<opt>HelloHii</opt>
+<opt>No</opt>
+<ans>HelloHii</ans>
+</end>
+
+<begin>
+<id>
+29214030
+</id>
+<q>
+Choose a syntax for C Ternary Operator from the list.
+</q>
+<code>
+</code>
+<opt>condition : expression1 ? expression2</opt>
+<opt>condition ? expression1 < expression2</opt>
+<opt>condition ? expression1 : expression2</opt>
+<opt>condition < expression1 ? expression2</opt>
+<ans>condition ? expression1 : expression2</ans>
+</end>
+
+<begin>
+<id>
+29314030
+</id>
+<q>
+What is the output of the C program?
+</q>
+<code>
+#include<stdio.h>
+int main()
+{
+    int a=0;
+    a = 5 < 2 ? 4 : 3;
+    printf("%d",a);
+    return 0;
+}
+</code>
+<opt>4</opt>
+<opt>3</opt>
+<opt>0</opt>
+<opt>Garbage value</opt>
+<ans>3</ans>
+</end>
+

@@ -1,0 +1,478 @@
+<begin>
+<id>
+34114030
+</id>
+<q>
+What is a String in C Language?
+</q>
+<code>
+</code>
+<opt>String is a new Data Type in C</opt>
+<opt>String is an array of Integers with 0 as the last element of array.</opt>
+<opt>String is an array of Characters with null character as the first element of array</opt>
+<opt>String is an array of Characters with null character as the last element of array.</opt>
+<ans>String is an array of Characters with null character as the last element of array.</ans>
+</end>
+
+<begin>
+<id>
+34214030
+</id>
+<q>
+What is the Format specifier used to print a String or Character array in C Printf or Scanf function?
+</q>
+<code>
+</code>
+<opt>%c</opt>
+<opt>%p</opt>
+<opt>%str</opt>
+<opt>%s</opt>
+<ans>%s</ans>
+</end>
+
+<begin>
+<id>
+34314030
+</id>
+<q>
+What is the output of the C program?
+</q>
+<code>
+#include<stdio.h>
+int main()
+{
+    char str[]={'g','l','o','b','e'};
+    printf("%s",str);
+    return 0;
+}
+</code>
+<opt>g</opt>
+<opt>globe</opt>
+<opt>globe\0</opt>
+<opt>None of them</opt>
+<ans>None of them</ans>
+</end>
+
+<begin>
+<id>
+34414030
+</id>
+<q>
+What is the output?
+</q>
+<code>
+#include<stdio.h>
+int main()
+{
+    char str[]={'h','e','l','o','o','\0'};
+    printf("%s",str);
+    return 0;
+}
+</code>
+<opt>hello</opt>
+<opt>heloo</opt>
+<opt>heloo\0</opt>
+<opt>None of them</opt>
+<ans>heloo</ans>
+</end>
+
+<begin>
+<id>
+34514030
+</id>
+<q>
+What is the maximum length of a C String?
+</q>
+<code>
+</code>
+<opt>32 characters</opt>
+<opt>64 characters</opt>
+<opt>128 characters</opt>
+<opt>None of these</opt>
+<ans>None of these</ans>
+</end>
+
+<begin>
+<id>
+34614030
+</id>
+<q>
+Which of the following function duplicates a string?
+</q>
+<code>
+</code>
+<opt>strstr</opt>
+<opt>strcpy</opt>
+<opt>strdup</opt>
+<opt>strcat</opt>
+<ans>strdup</ans>
+</end>
+
+<begin>
+<id>
+34714030
+</id>
+<q>
+What will strcmp() function do?
+</q>
+<code>
+</code>
+<opt>undefined function</opt>
+<opt>compares the first n characters of the object</opt>
+<opt>compares the string</opt>
+<opt>copies the string</opt>
+<ans>compares the string</ans>
+</end>
+
+<begin>
+<id>
+34814030
+</id>
+<q>
+A string constant in C is terminated by?
+</q>
+<code>
+</code>
+<opt>"\0"</opt>
+<opt>'\0'</opt>
+<opt>"0"</opt>
+<opt>'0'</opt>
+<ans>'\0'</ans>
+</end>
+
+<begin>
+<id>
+34914030
+</id>
+<q>
+The library function used to find the last occurrence of a character in a string is-
+</q>
+<code>
+</code>
+<opt>laststr()</opt>
+<opt>strnstr()</opt>
+<opt>strrchr()</opt>
+<opt>strchr()</opt>
+<ans>strrchr()</ans>
+</end>
+
+<begin>
+<id>
+35014030
+</id>
+<q>
+Which of the following function is used to find the first occurrence of a given string in another string?
+</q>
+<code>
+</code>
+<opt>firststr()</opt>
+<opt>strchr()</opt>
+<opt>strrchr()</opt>
+<opt>strstr()</opt>
+<ans>strchr()</ans>
+</end>
+
+<begin>
+<id>
+35114045
+</id>
+<q>
+What is the output of the following C program?
+</q>
+<code>
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char str1[20] = "Hello", str2[20] = " World";
+    printf("%s\n", strcpy(str2, strcat(str1,str2)));
+    return 0;
+}
+</code>
+<opt>Hello</opt>
+<opt>Hello World</opt>
+<opt>HelloWorld</opt>
+<opt>WorldHello</opt>
+<ans>Hello World</ans>
+</end>
+
+<begin>
+<id>
+35214030
+</id>
+<q>
+Which string function helps to find the length of the string?
+</q>
+<code>
+</code>
+<opt>stringLength()</opt>
+<opt>strlen()</opt>
+<opt>strmax()</opt>
+<opt>strdup()</opt>
+<ans>strlen()</ans>
+</end>
+
+<begin>
+<id>
+35314045
+</id>
+<q>
+What is the output of the following C program?
+</q>
+<code>
+#include<stdio.h>
+
+int main()
+{
+    printf(5+"Good Morning\n");
+    return 0;
+}
+</code>
+<opt>Good Morning</opt>
+<opt>Good</opt>
+<opt>M</opt>
+<opt>Morning</opt>
+<ans>Morning</ans>
+</end>
+
+<begin>
+<id>
+35414030
+</id>
+<q>
+What would be the output of the following program? 
+</q>
+<code>
+int main()
+{
+    printf(5+"Fascimile");
+}
+</code>
+<opt>Error</opt>
+<opt>Fascimile</opt>
+<opt>mile</opt>
+<opt>None of these</opt>
+<ans>mile</ans>
+</end>
+
+<begin>
+<id>
+35514060
+</id>
+<q>
+What is the output of the following C program?
+</q>
+<code>
+#include<stdio.h>
+int main()
+{
+    char str1[]="Hello";
+    char str2[]="Hello";
+    if (str1==str2)
+    {
+       printf("equal\n");
+    }
+    else
+    {
+      printf("unequal\n");
+    }
+    return 0;
+}
+</code>
+<opt>unequal</opt>
+<opt>equal</opt>
+<opt>Error</opt>
+<opt>None of these</opt>
+<ans>unequal</ans>
+</end>
+
+<begin>
+<id>
+35614030
+</id>
+<q>
+What is the output of the following C program?
+</q>
+<code>
+int main()
+{
+    char str[7]="Strings";
+    printf("%s",str);
+}
+</code>
+<opt>Strings</opt>
+<opt>Error</opt>
+<opt>Cannot predict</opt>
+<opt>None of these</opt>
+<ans>Cannot predict</ans>
+</end>
+
+<begin>
+<id>
+35714030
+</id>
+<q>
+Which of the following function sets first n characters of a string to a given character?
+</q>
+<code>
+</code>
+<opt>strinit()</opt>
+<opt>strset()</opt>
+<opt>strnset()</opt>
+<opt>strcset()</opt>
+<ans>strnset()</ans>
+</end>
+
+<begin>
+<id>
+35814030
+</id>
+<q>
+If the two strings are identical, then strcmp() function returns-
+</q>
+<code>
+</code>
+<opt>0</opt>
+<opt>1</opt>
+<opt>-1</opt>
+<opt>Yes</opt>
+<ans>0</ans>
+</end>
+
+<begin>
+<id>
+35914030
+</id>
+<q>
+How will you print \n on the screen?
+</q>
+<code>
+</code>
+<opt>printf("\n");</opt>
+<opt>echo "\\n";</opt>
+<opt>printf('\n');</opt>
+<opt>printf("\\n");</opt>
+<ans>printf("\\n");</ans>
+</end>
+
+<begin>
+<id>
+36014030
+</id>
+<q>
+Which of the following function is more appropriate for reading in a multi-word string?
+</q>
+<code>
+</code>
+<opt>printf()</opt>
+<opt>gets()</opt>
+<opt>scanf()</opt>
+<opt>puts()</opt>
+<ans>gets()</ans>
+</end>
+
+<begin>
+<id>
+36114090
+</id>
+<q>
+Which of the following function is correct that finds the length of a string?
+</q>
+<code>
+</code>
+<opt>int mystrlen(char *s)
+{
+    int length=0;
+    while(*s!='\0')
+    {    length++; s++; }
+    return (length);
+}</opt>
+<opt>int mystrlen(char s)
+{
+    int length=0;
+    while(*s!='\0')
+        length++; s++;
+    return (length);
+}</opt>
+<opt>int mystrlen(char *s)
+{
+    int length=0;
+    while(*s!='\0')
+        length++;
+    return (length);
+}</opt>
+<opt>int mystrlen(char *s)
+{
+    int length=0;
+    while(*s!='\0')
+        s++;
+    return (length);
+}</opt>
+<ans>int mystrlen(char *s)
+{
+    int length=0;
+    while(*s!='\0')
+    {    length++; s++; }
+    return (length);
+}</ans>
+</end>
+
+<begin>
+<id>
+36214060
+</id>
+<q>
+What is the output of the C program?
+</q>
+<code>
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    static char str1[] = "dills";
+    static char str2[20];
+    static char str3[] = "Daffo";
+    int i;
+    i = strcmp(strcat(str3, strcpy(str2, str1)), "Daffodills");
+    printf("%d\n", i);
+    return 0;
+}
+</code>
+<opt>1</opt>
+<opt>0</opt>
+<opt>-1</opt>
+<opt>None of these</opt>
+<ans>0</ans>
+</end>
+
+<begin>
+<id>
+36304030
+</id>
+<q>
+All the characters in string are stored in-
+</q>
+<code>
+</code>
+<opt>contiguous memory location</opt>
+<opt>discrrete memory location</opt>
+<opt>both A & B</opt>
+<opt>pointer to pointer</opt>
+<ans>contiguous memory location</ans>
+</end>
+
+<begin>
+<id>
+36414030
+</id>
+<q>
+strrev() in c C is used to-
+</q>
+<code>
+</code>
+<opt>allocate memory to string</opt>
+<opt>reverse string</opt>
+<opt>reverse string to char array</opt>
+<opt>None of these</opt>
+<ans>reverse string</ans>
+</end>

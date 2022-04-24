@@ -1,0 +1,347 @@
+<begin>
+<id>
+66614030
+</id>
+<q>
+What is the keyword used to define a C macro?
+</q>
+<code>
+</code>
+<opt>def</opt>
+<opt>definition</opt>
+<opt>define</opt>
+<opt>defy</opt>
+<ans>define</ans>
+</end>
+
+<begin>
+<id>
+66714030
+</id>
+<q>
+What is the C keyword used to create global constants?
+</q>
+<code>
+</code>
+<opt>define</opt>
+<opt>const</opt>
+<opt>constant</opt>
+<opt>definition</opt>
+<ans>define</ans>
+</end>
+
+<begin>
+<id>
+66814030
+</id>
+<q>
+Processor Directive in C language starts with?
+</q>
+<code>
+</code>
+<opt>$ symbol (DOLLAR)</opt>
+<opt>@ symbol (At The Rate)</opt>
+<opt>& symbol (Ampersand)</opt>
+<opt># symbol (HASH)</opt>
+<ans># symbol (HASH)</ans>
+</end>
+
+<begin>
+<id>
+66914030
+</id>
+<q>
+What is the output of the C program?
+</q>
+<code>
+#include<stdio.h>
+#define san 10
+int main()
+{
+	#ifdef san
+	#define san 20
+	#endif
+	printf("%d",san);
+}
+</code>
+<opt>10</opt>
+<opt>20</opt>
+<opt>Error</opt>
+<opt>1020</opt>
+<ans>20</ans>
+</end>
+
+<begin>
+<id>
+67014030
+</id>
+<q>
+__________ is the Preprocessor directive which is used to end the scope of #ifdef.
+</q>
+<code>
+</code>
+<opt>#elif</opt>
+<opt>#ifndef</opt>
+<opt>#endif</opt>
+<opt>#if</opt>
+<ans>#endif</ans>
+</end>
+
+<begin>
+<id>
+67114030
+</id>
+<q>
+The preprocessor directive which checks whether a constant expression results in a zero or non-zero value __________
+</q>
+<code>
+</code>
+<opt>#if</opt>
+<opt>#ifdef</opt>
+<opt>#undef</opt>
+<opt>#ifndef</opt>
+<ans>#if</ans>
+</end>
+
+<begin>
+<id>
+67214030
+</id>
+<q>
+What is the output of the following C program?
+</q>
+<code>
+#include <stdio.h>
+#define max 100
+int main() 
+{
+#if (max%10)
+  printf("Alg");
+#endif
+  printf("bly");
+  return 0;
+}
+</code>
+<opt>Error</opt>
+<opt>bly</opt>
+<opt>Alg</opt>
+<opt>Algbly</opt>
+<ans>bly</ans>
+</end>
+
+<begin>
+<id>
+67314030
+</id>
+<q>
+The preprocessor directive which is used to remove the definition of an identifier which was previously defined with #define?
+</q>
+<code>
+</code>
+<opt>#ifdef</opt>
+<opt>#undef</opt>
+<opt>#ifndef</opt>
+<opt>#def</opt>
+<ans>#undef</ans>
+</end>
+
+<begin>
+<id>
+67414030
+</id>
+<q>
+What is the output file generated after processing a .C file?
+</q>
+<code>
+</code>
+<opt>.h file</opt>
+<opt>.exe file</opt>
+<opt>.cp file</opt>
+<opt>.bak file</opt>
+<ans>.exe file</ans>
+</end>
+
+<begin>
+<id>
+67514030
+</id>
+<q>
+What is the another name for .C file?
+</q>
+<code>
+</code>
+<opt>Executable code</opt>
+<opt>Source Code</opt>
+<opt>Distributable Code</opt>
+<opt>Macro code</opt>
+<ans>Source Code</ans>
+</end>
+
+<begin>
+<id>
+67614060
+</id>
+<q>
+What is the output of C program with #define?
+</q>
+<code>
+#define NUM 156
+int main()
+{
+    int a=10;
+    a = a*NUM;
+    printf("NUMBER=%d",a);
+    return 0;
+}
+</code>
+<opt>NUMBER=156</opt>
+<opt>NUMBER=15</opt>
+<opt>NUMBER=1560</opt>
+<opt>NUMBER=1600</opt>
+<ans>NUMBER=1560</ans>
+</end>
+
+<begin>
+<id>
+67714030
+</id>
+<q>
+Choose a correct C statement about #define statement.
+</q>
+<code>
+#define HELLO 156
+</code>
+<opt>HELLO is called Macro Expansion. 156 is called Macro Template.</opt>
+<opt>HELLO is called Macro Expansion. 156 is also called Macro Expansion.</opt>
+<opt>HELLO is called Macro Template. 156 is called Macro Expansion.</opt>
+<opt>None of these</opt>
+<ans>HELLO is called Macro Template. 156 is called Macro Expansion.</ans>
+</end>
+
+<begin>
+<id>
+67814030
+</id>
+<q>
+Any number of spaces and horizontal tab characters may separate the tokens in a directive.Comment on this statement.
+</q>
+<code>
+</code>
+<opt>True</opt>
+<opt>False</opt>
+<opt>May be</opt>
+<opt>Cannot say</opt>
+<ans>True</ans>
+</end>
+
+<begin>
+<id>
+67914030
+</id>
+<q>
+Directives can appear _______ in/of a program.
+</q>
+<code>
+</code>
+<opt>only at the beginning</opt>
+<opt>anywhere</opt>
+<opt>at the end</opt>
+<opt>None of these</opt>
+<ans>anywhere</ans>
+</end>
+
+<begin>
+<id>
+68014030
+</id>
+<q>
+The # operator converts a macro argument into a ________.
+</q>
+<code>
+</code>
+<opt>character</opt>
+<opt>string literal</opt>
+<opt>number</opt>
+<opt>None of these</opt>
+<ans>string literal</ans>
+</end>
+
+<begin>
+<id>
+68104030
+</id>
+<q>
+What does the predefined Macro _LINE_ represent?
+</q>
+<code>
+</code>
+<opt>Number of maximum characters in a line</opt>
+<opt>Line number of file being compiled</opt>
+<opt>Both A & B</opt>
+<opt>Name of file being compiled</opt>
+<ans>Line number of file being compiled</ans>
+</end>
+
+<begin>
+<id>
+68204030
+</id>
+<q>
+We can use which macros to locate errors?
+</q>
+<code>
+</code>
+<opt>_TIME_</opt>
+<opt>_LINE_</opt>
+<opt>_FILE_</opt>
+<opt>Both B & C</opt>
+<ans>Both B & C</ans>
+</end>
+
+<begin>
+<id>
+68304030
+</id>
+<q>
+The #pragma directive provides a way to ____________________.
+</q>
+<code>
+</code>
+<opt>alter the way program lines are numbered</opt>
+<opt>request special behaviour from the compiler</opt>
+<opt>Both A & B</opt>
+<opt>None of these</opt>
+<ans>request special behaviour from the compiler</ans>
+</end>
+
+<begin>
+<id>
+68414030
+</id>
+<q>
+Predefined macros are-
+</q>
+<code>
+</code>
+<opt>_LINE_</opt>
+<opt>_FILE_</opt>
+<opt>_STDC_</opt>
+<opt>All of these</opt>
+<ans>All of these</ans>
+</end>
+
+<begin>
+<id>
+68514030
+</id>
+<q>
+What is the function of _STDC_ macro?
+</q>
+<code>
+</code>
+<opt>Name of file being compiled</opt>
+<opt>Date of compilation</opt>
+<opt>If the compiler conforms to the C standard</opt>
+<opt>Time of compilation</opt>
+<ans>If the compiler conforms to the C standard</ans>
+</end>

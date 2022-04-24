@@ -1,0 +1,316 @@
+<begin>
+<id>
+06614030
+</id>
+<q>
+What would be the output of the following program?
+</q>
+<code>
+#include<stdio.h>
+int main(void)
+{
+	extern int i;
+	i = 20;
+	printf("%d", sizeof(i));
+}
+</code>
+<opt>2</opt>
+<opt>4</opt>
+<opt>Would vary from compiler to compiler</opt>
+<opt>Error,i is undefined</opt>
+<ans>Error,i is undefined</ans>
+</end>
+
+<begin>
+<id>
+06714030
+</id>
+<q>
+Which of the following statements should be used to obtain a remainder after dividing 3.14 by 2.1 ?
+</q>
+<code>
+</code>
+<opt>rem=3.14%2.1;</opt>
+<opt>rem=modf(3.14,2.1);</opt>
+<opt>Remainder cannot be obtain in floating point division.</opt>
+<opt>rem=fmod(3.14,2.1);</opt>
+<ans>rem=fmod(3.14,2.1);</ans>
+</end>
+
+<begin>
+<id>
+06814030
+</id>
+<q>
+Which of the following special symbol allowed in a variable name?
+</q>
+<code>
+</code>
+<opt>* (asterisk)</opt>
+<opt>| (pipeline)</opt>
+<opt>- (hyphen)</opt>
+<opt>_ (underscore)</opt>
+<ans>_ (underscore)</ans>
+</end>
+
+<begin>
+<id>
+06914030
+</id>
+<q>
+By default a real number is treated as a-
+</q>
+<code>
+</code>
+<opt>int</opt>
+<opt>double</opt>
+<opt>float</opt>
+<opt>long double</opt>
+<ans>double</ans>
+</end>
+
+
+<begin>
+<id>
+07014030
+</id>
+<q>
+Is the following statement a declaration or definition?
+</q>
+<code>
+extern int i;
+</code>
+<opt>Declaration</opt>
+<opt>Definition</opt>
+<opt>Both</opt>
+<opt>Error</opt>
+<ans>Declaration</ans>
+</end>
+
+
+<begin>
+<id>
+07104030
+</id>
+<q>
+In the following program where is the variable a getting defined and where it is getting declared?
+</q>
+<code>
+#include<stdio.h>
+int main(void)
+{
+    extern int a;
+    printf("%d\n", a);
+    return 0;
+}
+int a=20;
+</code>
+<opt>int a = 20 is declaration, extern int a is the definition</opt>
+<opt>int a = 20 is definition, a is not defined</opt>
+<opt>extern int a is declaration, int a = 20 is the definition </opt>
+<opt>Both a and c</opt>
+<ans>extern int a is declaration, int a = 20 is the definition </ans>
+</end>
+
+<begin>
+<id>
+07214030
+</id>
+<q>
+What is the output of the program?
+</q>
+<code>
+#include<stdio.h>
+int main(void)
+{
+    int x = 10, y = 20, z = 5, i;
+    i = x < y < z;
+    printf("%d\n", i);
+    return 0;
+}
+</code>
+<opt>10</opt>
+<opt>0</opt>
+<opt>20</opt>
+<opt>1</opt>
+<ans>1</ans>
+</end>
+
+<begin>
+<id>
+07314030
+</id>
+<q>
+How would you round off a value from 1.66 to 2.0?
+</q>
+<code>
+</code>
+<opt>floor(1.66)</opt>
+<opt>ceil(2.0)</opt>
+<opt>ceil(1.66)</opt>
+<opt>roundup(1.66)</opt>
+<ans>ceil(1.66)</ans>
+</end>
+
+<begin>
+<id>
+07414030
+</id>
+<q>
+In which header file is the NULL macro defined?
+</q>
+<code>
+</code>
+<opt>stdio.h</opt>
+<opt>math.h</opt>
+<opt>stddef.h</opt>
+<opt>stdio.h and stddef.h</opt>
+<ans>stdio.h and stddef.h</ans>
+</end>
+
+<begin>
+<id>
+07514030
+</id>
+<q>
+What is the output of the following C program?
+</q>
+<code>
+#include<stdio.h>
+int main(void)
+{
+      
+   int a, b, c, d, e;  
+   a=b=c=d=e=10;   
+   printf("%d \n",a);
+   printf("%d \n",b);
+   printf("%d \n",c);
+   printf("%d \n",d);
+   printf("%d \n",e);
+}
+</code>
+<opt>10</opt>
+<opt>10 
+10 
+10</opt>
+<opt>10 
+10 
+10 
+10</opt>
+<opt>10 
+10 
+10 
+10 
+10</opt>
+<ans>10 
+10 
+10 
+10 
+10</ans>
+</end>
+
+<begin>
+<id>
+07614030
+</id>
+<q>
+When we mention the prototype of a function?
+</q>
+<code>
+</code>
+<opt>Declaring</opt>
+<opt>Prototyping</opt>
+<opt>Calling</opt>
+<opt>Declaring</opt>
+<ans>Declaring</ans>
+</end>
+
+<begin>
+<id>
+07714030
+</id>
+<q>
+What would be the output of the following program? 
+</q>
+<code>
+#include<stdio.h>
+int main(void) 
+{ 
+char str[] = "Part-time musicians are semiconductors";
+int a=11; 
+printf (a > 10 ? "%50s" : "%s", str) ; 
+)
+</code>
+<opt>            Part-time musicians are semiconductors</opt>
+<opt>Part-time musicians are semiconductor</opt>
+<opt>Error</opt>
+<opt>None of these</opt>
+<ans></ans>
+</end>
+
+<begin>
+<id>
+07814030
+</id>
+<q>
+What would be the output of the following program? 
+</q>
+<code>
+#include<stdio.h>
+int main(void)
+{
+  static int a[20] ; 
+  int i=1; 
+  a[i] = i++; 
+  printt ("\n%d %d %d", a[0], a[1], i);
+}
+</code>
+<opt>0 0 0</opt>
+<opt>0 0 1</opt>
+<opt>0 0 2</opt>
+<opt>0 1 2</opt>
+<ans>0 0 2</ans>
+</end>
+
+<begin>
+<id>
+07914030
+</id>
+<q>
+What is the default C Storage Class for a variable?
+</q>
+<code>
+</code>
+<opt>register</opt>
+<opt>extern</opt>
+<opt>static</opt>
+<opt>auto</opt>
+<ans>auto</ans>
+</end>
+
+<begin>
+<id>
+08014030
+</id>
+<q>
+What is the difference between Declaration and Definition?
+</q>
+<code>
+</code>
+<opt>Declaration does allocate memory for a variable. 
+Definition does allocate memory for a variable.</opt>
+<opt>Declaration does allocate memory for a variable. 
+Definition does not allocate memory for a variable.</opt>
+<opt>Declaration does not allocate memory for a variable. 
+Definition does allocate memory for a variable.</opt>
+<opt>Declaration does not allocate memory for a variable. 
+Definition does not allocate memory for a variable.</opt>
+<ans>Declaration does not allocate memory for a variable. 
+Definition does allocate memory for a variable.</ans>
+</end>
+
+
+
+
+
+

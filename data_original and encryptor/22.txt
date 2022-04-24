@@ -1,0 +1,401 @@
+<begin>
+<id>
+40614030
+</id>
+<q>
+Prior to using a pointer variable it should be-
+</q>
+<code>
+</code>
+<opt>Declared</opt>
+<opt>Initialized</opt>
+<opt>Both declared and initalized</opt>
+<opt>None of these</opt>
+<ans>Both declared and initalized</ans>
+</end>
+
+<begin>
+<id>
+40714030
+</id>
+<q>
+In C a pointer variable to an integer can be created by the decalaration-
+</q>
+<code>
+</code>
+<opt>int p*;</opt>
+<opt>int *p;</opt>
+<opt>int +p;</opt>
+<opt>int $p;</opt>
+<ans>int *p;</ans>
+</end>
+
+<begin>
+<id>
+40814030
+</id>
+<q>
+If a variable is a pointer to a structure, then which of the following operator is used to access data members of the structure through the pointer variable?
+</q>
+<code>
+</code>
+<opt>.</opt>
+<opt>&</opt>
+<opt>*</opt>
+<opt>-></opt>
+<ans>-></ans>
+</end>
+
+<begin>
+<id>
+40914030
+</id>
+<q>
+A pointer is-
+</q>
+<code>
+</code>
+<opt>A keyword used to create variables</opt>
+<opt>A variable that stores address of an instruction</opt>
+<opt>A variable that stores address of other variable</opt>
+<opt>All of these</opt>
+<ans>A variable that stores address of other variable</ans>
+</end>
+
+<begin>
+<id>
+41014030
+</id>
+<q>
+The operator used to get value at address stored in a pointer variable is-
+</q>
+<code>
+</code>
+<opt>*</opt>
+<opt>-></opt>
+<opt>&</opt>
+<opt>&&</opt>
+<ans>*</ans>
+</end>
+
+<begin>
+<id>
+41104030
+</id>
+<q>
+If i is a variable and p points to i,which of the following expression is an alias for i?
+</q>
+<code>
+</code>
+<opt>*p</opt>
+<opt>*&p</opt>
+<opt>*&i</opt>
+<opt>Both A & C</opt>
+<ans>Both A & C</ans>
+</end>
+
+<begin>
+<id>
+41214030
+</id>
+<q>
+"&" is called as ___________ in pointer concept.
+</q>
+<code>
+</code>
+<opt>Conditional Operator</opt>
+<opt>Address Operator</opt>
+<opt>Logical Operator</opt>
+<opt>None of these</opt>
+<ans>Address Operator</ans>
+</end>
+
+<begin>
+<id>
+41314030
+</id>
+<q>
+"*" is called as ___________.
+</q>
+<code>
+</code>
+<opt>Address Operator</opt>
+<opt>Scope Resolution Operator</opt>
+<opt>Indirection Operator</opt>
+<opt></opt>
+<ans>Indirection Operator</ans>
+</end>
+
+<begin>
+<id>
+41414090
+</id>
+<q>
+What would be the equivalent pointer expression for referring the array element a[i][j][k][l]?
+</q>
+<code>
+</code>
+<opt>(((***(a+i)+j)+k)+l)</opt>
+<opt>*(*(*(*(a+i)+j)+k)+l)</opt>
+<opt>(*(*(*(a+i)+j)+k)+l)</opt>
+<opt>((**(*(a+i)+j)+k)+l)</opt>
+<ans>*(*(*(*(a+i)+j)+k)+l)</ans>
+</end>
+
+<begin>
+<id>
+41514060
+</id>
+<q>
+What is the output of the C program?
+</q>
+<code>
+#include<stdio.h>
+int main()
+{
+    int i=3, *j, k;
+    j = &i;
+    printf("%d\n", i**j*i+*j);
+    return 0;
+}
+</code>
+<opt>27</opt>
+<opt>30</opt>
+<opt>9</opt>
+<opt>3</opt>
+<ans>30</ans>
+</end>
+
+<begin>
+<id>
+41614030
+</id>
+<q>
+What do the following declaration signify?
+char *arr[10];
+</q>
+<code>
+</code>
+<opt>arr is a array of 10 character pointers.</opt>
+<opt>arr is a pointer to array of characters.</opt>
+<opt>arr is a array of characters.</opt>
+<opt>arr is a array of function pointer.</opt>
+<ans>arr is a array of 10 character pointers.</ans>
+</end>
+
+<begin>
+<id>
+41714030
+</id>
+<q>
+What does the following declaration mean?
+int (*ptr)[10];
+</q>
+<code>
+</code>
+<opt>ptr is array of pointers to 10 integers</opt>
+<opt>ptr is a pointer to an array of 10 integers</opt>
+<opt>ptr is an array of 10 integers</opt>
+<opt>ptr is an pointer to array</opt>
+<ans>ptr is a pointer to an array of 10 integers</ans>
+</end>
+
+<begin>
+<id>
+41814060
+</id>
+<q>
+What is the output of the C program?
+</q>
+<code>
+#include<stdio.h>
+int main()
+{
+    char *str;
+    str = "%s";
+    printf(str, "Kiwi\n");
+    return 0;
+}
+</code>
+<opt>K</opt>
+<opt>Kiw</opt>
+<opt>Kiwi</opt>
+<opt>No output</opt>
+<ans>Kiwi</ans>
+</end>
+
+<begin>
+<id>
+41914030
+</id>
+<q>
+The reason for using pointers in a C program is-
+</q>
+<code>
+</code>
+<opt>Pointers allow different functions to share and modify their local variables.</opt>
+<opt>To pass large structures so that complete copy of the structure can be avoided.</opt>
+<opt> Pointers enable complex "linked" data structures like linked lists and binary trees.</opt>
+<opt>All of these</opt>
+<ans>All of these</ans>
+</end>
+
+<begin>
+<id>
+42014030
+</id>
+<q>
+In which header file is the NULL macro defined?
+</q>
+<code>
+</code>
+<opt>stdio.h and stddef.h</opt>
+<opt>stdio.h</opt>
+<opt>math.h</opt>
+<opt>stddef.h</opt>
+<ans>stdio.h and stddef.h</ans>
+</end>
+
+<begin>
+<id>
+42114030
+</id>
+<q>
+How can you combine the following two statements into one?
+char *p;
+p = (char*) malloc(100);
+</q>
+<code>
+</code>
+<opt>char *p = (char*)malloc(100);</opt>
+<opt>char *p = (char) malloc(100);</opt>
+<opt>char *p = (char *)(malloc*)(100);</opt>
+<opt>char p = *malloc(100);</opt>
+<ans>char *p = (char*)malloc(100);</ans>
+</end>
+
+<begin>
+<id>
+42214060
+</id>
+<q>
+What is the output of the C program?
+</q>
+<code>
+#include<stdio.h>
+int main() 
+{
+  int a[] = {1, 2, 3, 4, 5}, *p;
+  p = a;
+  ++*p;
+  printf("%d ", *p);
+  p += 3;
+  printf("%d ", *p);
+}
+</code>
+<opt>2 3</opt>
+<opt>2 4</opt>
+<opt>2 5</opt>
+<opt>2 6</opt>
+<ans>2 4</ans>
+</end>
+
+<begin>
+<id>
+42314030
+</id>
+<q>
+What is the base data type of a pointer variable by which the memory would be allocated to it?
+</q>
+<code>
+</code>
+<opt>int</opt>
+<opt>unsigned int</opt>
+<opt>Depends upon the type of the variable to which it is pointing</opt>
+<opt>float</opt>
+<ans>unsigned int</ans>
+</end>
+
+<begin>
+<id>
+42414060
+</id>
+<q>
+What is the output of the C program?
+</q>
+<code>
+# include <stdio.h>
+void fun(int *ptr)
+{
+    *ptr = 40;
+}
+
+int main()
+{
+  int y = 20;
+  fun(&y);
+  printf("%d", y);
+  return 0;
+}
+</code>
+<opt>20</opt>
+<opt>30</opt>
+<opt>40</opt>
+<opt>None of the above</opt>
+<ans>40</ans>
+</end>
+
+<begin>
+<id>
+42514060
+</id>
+<q>
+Assume that float takes 4 bytes, predict the output of following program.
+</q>
+<code>
+#include <stdio.h>
+int main()
+{
+    float arr[5] = {12.5, 10.0, 13.5, 90.5, 0.5};
+    float *ptr1 = &arr[0];
+    float *ptr2 = ptr1 + 3;
+ 
+    printf("%f ", *ptr2);
+    printf("%d", ptr2 - ptr1);
+ 
+    return 0;
+}
+</code>
+<opt>90.500000 3</opt>
+<opt>90.500000 12</opt>
+<opt>10.000000 12</opt>
+<opt>0.500000 3</opt>
+<ans>90.500000 3</ans>
+</end>
+
+<begin>
+<id>
+42614060
+</id>
+<q>
+What is the output of the C program?
+</q>
+<code>
+#include<stdio.h>
+int main()
+{
+    int arr[] = {10, 20, 30, 40, 50, 60};
+    int *ptr1 = arr;
+    int *ptr2 = arr + 5;
+    printf("Number of elements between two pointer is: %d.",(ptr2 - ptr1));                         
+    printf("Number of bytes between two pointers is: %d",(char*)ptr2 - (char*) ptr1);                            
+    return 0;
+}
+</code>
+<opt>Number of elements between two pointer is: 20. Number of bytes between two pointers is: 20</opt>
+<opt>Number of elements between two pointer is: 5. Number of bytes between two pointers is: 5</opt>
+<opt>Runtime error</opt>
+<opt>Number of elements between two pointer is: 5. Number of bytes between two pointers is: 20</opt>
+<ans>Number of elements between two pointer is: 5. Number of bytes between two pointers is: 20</ans>
+</end>
+

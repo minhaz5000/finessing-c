@@ -1,0 +1,559 @@
+<begin>
+<id>
+47114030
+</id>
+<q>
+Any C program-
+</q>
+<code>
+</code>
+<opt>Must contain at least one function.</opt>
+<opt>Need not contain any function.</opt>
+<opt>Must contain at least two functions.</opt>
+<opt>None of these</opt>
+<ans>Must contain at least one function.</ans>
+</end>
+
+<begin>
+<id>
+47214030
+</id>
+<q>
+What is a function?
+</q>
+<code>
+</code>
+<opt>Function is a block of statements that perform some specific task.</opt>
+<opt>Function is the fundamental modular unit. A function is usually designed to perform a specific task.</opt>
+<opt>Function is a block of code that performs a specific task. It has a name and it is reusable.</opt>
+<opt>All of these</opt>
+<ans>All of these</ans>
+</end>
+
+<begin>
+<id>
+47314030
+</id>
+<q>
+In C, parameters are always- 
+</q>
+<code>
+</code>
+<opt>Passed by value result</opt>
+<opt>Passed by value</opt>
+<opt>Non-pointer variables are passed by value and pointers are passed by reference</opt>
+<opt>Passed by reference</opt>
+<ans>Passed by value</ans>
+</end>
+
+<begin>
+<id>
+47414030
+</id>
+<q>
+Which of the following is true about return type of functions in C?
+</q>
+<code>
+</code>
+<opt>Functions can return any type except array, functions and union</opt>
+<opt>Functions can return any type except array and functions</opt>
+<opt>Functions can return any type</opt>
+<opt>Functions can return any type except array, functions, function pointer and union</opt>
+<ans>Functions can return any type except array and functions</ans>
+</end>
+
+<begin>
+<id>
+47514030
+</id>
+<q>
+A function which calls itself is called a ___ function.
+</q>
+<code>
+</code>
+<opt>Self Function</opt>
+<opt>Auto Function</opt>
+<opt>Static Function</opt>
+<opt>Recursive Function</opt>
+<ans>Recursive Function</ans>
+</end>
+
+<begin>
+<id>
+47614030
+</id>
+<q>
+The keyword used to transfer control from a function back to the calling function is-
+</q>
+<code>
+</code>
+<opt>switch</opt>
+<opt>goto</opt>
+<opt>continue</opt>
+<opt>return</opt>
+<ans>return</ans>
+</end>
+
+<begin>
+<id>
+47714030
+</id>
+<q>
+What is the output of the C program?
+</q>
+<code>
+#include <stdio.h>
+int main()
+{
+  printf("%d", main);  
+  return 0;
+}
+</code>
+<opt>Address of the main function</opt>
+<opt>Some random value</opt>
+<opt>Compilation error</opt>
+<opt>Runtime error</opt>
+<ans>Address of the main function</ans>
+</end>
+
+<begin>
+<id>
+47814030
+</id>
+<q>
+What are the types of functions in C Language?
+</q>
+<code>
+</code>
+<opt>Standard library functions</opt>
+<opt>User-defined functions</opt>
+<opt>Both Standard library and User Defined</opt>
+<opt>None of these</opt>
+<ans>Both Standard library and User Defined</ans>
+</end>
+
+<begin>
+<id>
+47914030
+</id>
+<q>
+Choose correct statements about C Language Pass By Value.
+</q>
+<code>
+</code>
+<opt>Pass By Value copies the variable value in one more memory location</opt>
+<opt>Pass By Value does not use Pointers</opt>
+<opt>Pass By Value protects your source or original variables from changes in outside functions or called functions</opt>
+<opt>All of these</opt>
+<ans>All of these</ans>
+</end>
+
+<begin>
+<id>
+48014030
+</id>
+<q>
+What is the limit for number of functions in a C Program?
+</q>
+<code>
+</code>
+<opt>64</opt>
+<opt>128</opt>
+<opt>256</opt>
+<opt>No limit</opt>
+<ans>No limit</ans>
+</end>
+
+<begin>
+<id>
+48114030
+</id>
+<q>
+Every C Program should contain which functionEvery C Program should contain which function?
+</q>
+<code>
+</code>
+<opt>printf()</opt>
+<opt>main()</opt>
+<opt>scanf()</opt>
+<opt>show()</opt>
+<ans>main()</ans>
+</end>
+
+<begin>
+<id>
+48214030
+</id>
+<q>
+Arguments passed to a function in C language are called ___ arguments.
+</q>
+<code>
+</code>
+<opt>Formal arguments</opt>
+<opt>Actual Arguments</opt>
+<opt>Definite Arguments</opt>
+<opt>Ideal Arguments</opt>
+<ans>Actual Arguments</ans>
+</end>
+
+<begin>
+<id>
+48314030
+</id>
+<q>
+Arguments received by a function in C language are called ___ arguments.
+</q>
+<code>
+</code>
+<opt>Ideal arguments</opt>
+<opt>Actual arguments</opt>
+<opt>Definite arguments</opt>
+<opt>Formal arguments</opt>
+<ans>Formal arguments</ans>
+</end>
+
+<begin>
+<id>
+48414045
+</id>
+<q>
+What is the output?
+</q>
+<code>
+int main() 
+{
+  int i=abc(10);
+  printf("%d\n",--i);
+} 
+
+int abc(int i)
+{
+   return (i++);
+}
+</code>
+<opt>9</opt>
+<opt>10</opt>
+<opt>11</opt>
+<opt>8</opt>
+<ans>9</ans>
+</end>
+
+<begin>
+<id>
+48514020
+</id>
+<q>
+What is the default return value of a C function if not specified explicitly?
+</q>
+<code>
+</code>
+<opt>-1</opt>
+<opt>1</opt>
+<opt>0</opt>
+<opt>None of these</opt>
+<ans>0</ans>
+</end>
+
+<begin>
+<id>
+48614030
+</id>
+<q>
+In C, what is the meaning of following function prototype with empty parameter list?
+</q>
+<code>
+void fun()
+{
+   /* .... */
+}
+</code>
+<opt>Function can only be called without any parameter</opt>
+<opt>Function can be called with any number of parameters of any types</opt>
+<opt>Function can be called with any number of integer parameters</opt>
+<opt>Function can be called with one integer parameter</opt>
+<ans>Function can be called with any number of parameters of any types</ans>
+</end>
+
+<begin>
+<id>
+48714060
+</id>
+<q>
+What error would the following function give on compilation?
+</q>
+<code>
+f(int a,int b)
+{
+	int a;
+	a = 20;
+	return a;
+}
+</code>
+<opt>Missing parentheses in return statement</opt>
+<opt>The function should be defined as int f (int a,int b)</opt>
+<opt>Redeclaration of a</opt>
+<opt>None of these</opt>
+<ans>Redeclaration of a</ans>
+</end>
+
+<begin>
+<id>
+48814030
+</id>
+<q>
+Usually recursion works ________ than loops.
+</q>
+<code>
+</code>
+<opt>slower</opt>
+<opt>faster</opt>
+<opt>They take equal time</opt>
+<opt>None of these</opt>
+<ans>slower</ans>
+</end>
+
+<begin>
+<id>
+48914030
+</id>
+<q>
+How many times the program will print "Bangladesh" ?
+</q>
+<code>
+#include<stdio.h>
+int main()
+{
+    printf("Bangladesh");
+    main();
+    return 0;
+}
+</code>
+<opt>Infinite times</opt>
+<opt>32767 times</opt>
+<opt>65535 times</opt>
+<opt>Till stack overflows</opt>
+<ans>Till stack overflows</ans>
+</end>
+
+<begin>
+<id>
+49014030
+</id>
+<q>
+What is the output of the C program?
+</q>
+<code>
+#include<stdio.h>
+int i;
+int fun();
+
+int main()
+{
+    while(i)
+    {
+        fun();
+        main();
+    }
+    printf("Hello\n");
+    return 0;
+}
+int fun()
+{
+    printf("Hi");
+}
+</code>
+<opt>Hello</opt>
+<opt>Hi</opt>
+<opt>Hi Hello</opt>
+<opt>No output</opt>
+<ans>Hello</ans>
+</end>
+
+<begin>
+<id>
+49114030
+</id>
+<q>
+What is the output of the C program?
+</q>
+<code>
+#include<stdio.h>
+int reverse(int);
+
+int main()
+{
+    int no=5;
+    reverse(no);
+    return 0;
+}
+int reverse(int no)
+{
+    if(no == 0)
+        return 0;
+    else
+        printf("%d ", no);
+    reverse (--no);
+}
+</code>
+<opt>1 2 3 4 5</opt>
+<opt>5 4 3 2 1 0</opt>
+<opt>5 4 3 2 1</opt>
+<opt>Infinite loop</opt>
+<ans>5 4 3 2 1</ans>
+</end>
+
+<begin>
+<id>
+49214060
+</id>
+<q>
+What is the output of the following C program?
+</q>
+<code>
+#include <stdio.h>
+int main()
+{
+ int a = 10;
+ int b = 15;
+ 
+ printf("=%d",(a+1),(b=a+2));
+ printf(" %d=",b);
+ 
+ return 0;
+}
+</code>
+<opt>=11 15=</opt>
+<opt>=11 12=</opt>
+<opt>Compiler Error due to (b=a+2) in the first printf()</opt>
+<opt>No compile error but output would be =11 X= where X would depend on compiler implementation</opt>
+<ans>=11 12=</ans>
+</end>
+
+<begin>
+<id>
+49314060
+</id>
+<q>
+What is the output of the C program?
+</q>
+<code>
+#include <stdio.h>
+
+void swap(int a,int b);
+
+int main()
+{
+ int i=1,j=2;
+ swap(i,j);
+ printf("i=%d,j=%d\n",i,j);
+ return 0;
+}
+
+void swap(int a,int b)
+{
+   int temp=a;
+   a=b;
+   b=temp;
+}
+</code>
+<opt>i=1,j=2</opt>
+<opt>i=2,j=1</opt>
+<opt>i=1,j=1</opt>
+<opt>i=2,j=2</opt>
+<ans>i=1,j=2</ans>
+</end>
+
+<begin>
+<id>
+49414060
+</id>
+<q>
+When any function is called from main(), the memory is allocated to it on the stack.
+</q>
+<code>
+</code>
+<opt>True</opt>
+<opt>False</opt>
+<opt>Can be true or false</opt>
+<opt>Cannot say</opt>
+<ans>True</ans>
+</end>
+
+<begin>
+<id>
+49514030
+</id>
+<q>
+The data structure used to implement recursive function calls _____________
+</q>
+<code>
+</code>
+<opt>Array</opt>
+<opt>Linked List</opt>
+<opt>Binary tree</opt>
+<opt>Stack</opt>
+<ans>Stack</ans>
+</end>
+
+
+<begin>
+<id>
+49614030
+</id>
+<q>
+The principle of stack is ___________
+</q>
+<code>
+</code>
+<opt>First in first out</opt>
+<opt>First in last out</opt>
+<opt>Last in first out</opt>
+<opt>Last in last out</opt>
+<ans>Last in first out</ans>
+</end>
+
+<begin>
+<id>
+49714045
+</id>
+<q>
+Consider the following recursive function fun(x, y). What is the value of fun(4, 3)?
+</q>
+<code>
+int fun(int x, int y) 
+{
+  if (x == 0)
+    return y;
+  return fun(x - 1,  x + y);
+} 
+</code>
+<opt>13</opt>
+<opt>12</opt>
+<opt>9</opt>
+<opt>10</opt>
+<ans>13</ans>
+</end>
+
+<begin>
+<id>
+49814045
+</id>
+<q>
+What does the following function print for n = 25?
+</q>
+<code>
+void fun(int n)
+{
+  if (n == 0)
+    return;
+ 
+  printf("%d", n%2);
+  fun(n/2);
+}  
+</code>
+<opt>11001</opt>
+<opt>10011</opt>
+<opt>00000</opt>
+<opt>11111</opt>
+<ans>10011</ans>
+</end>

@@ -1,0 +1,277 @@
+<begin>
+<id>
+86114020
+</id>
+<q>
+Which standard library function will you use to find the last occurance of a character in a string in C?
+</q>
+<code>
+</code>
+<opt>strnchar()</opt>
+<opt>strchar()</opt>
+<opt>strrchar()</opt>
+<opt>strrchr()</opt>
+<ans>strrchr()</ans>
+</end>
+
+<begin>
+<id>
+86214020
+</id>
+<q>
+What is stderr?
+</q>
+<code>
+</code>
+<opt>standard error</opt>
+<opt>standard error types</opt>
+<opt>standard error streams</opt>
+<opt>standard error definitions</opt>
+<ans>standard error streams()</ans>
+</end>
+
+<begin>
+<id>
+86314020
+</id>
+<q>
+What is the purpose of fflush() function.
+</q>
+<code>
+</code>
+<opt>flushes all streams and specified streams.</opt>
+<opt>flushes only specified stream.</opt>
+<opt>flushes input/output buffer.</opt>
+<opt>flushes file buffer.</opt>
+<ans>flushes all streams and specified streams.</ans>
+</end>
+
+<begin>
+<id>
+86414020
+</id>
+<q>
+How can I write functions that take a variable number of arguments?
+</q>
+<code>
+</code>
+<opt>Use <stdarg.h> Header</opt>
+<opt>Use <argv.h> Header</opt>
+<opt>Use <stdlib.h> Header</opt>
+<opt>Use <args.h> Header</opt>
+<ans>Use <stdarg.h> Header</ans>
+</end>
+
+<begin>
+<id>
+86514020
+</id>
+<q>
+The maths function acos(x) stands for
+</q>
+<code>
+</code>
+<opt>Inverse Cosine of x</opt>
+<opt>Cosine of x</opt>
+<opt>Inverse Tangent of x</opt>
+<opt>Floor of x</opt>
+<ans>Inverse Cosine of x</ans>
+</end>
+
+<begin>
+<id>
+86614020
+</id>
+<q>
+The standard C library file <stdlib.h> is used for
+</q>
+<code>
+</code>
+<opt>Declares a utility function</opt>
+<opt>Declares a mathematical function</opt>
+<opt>Declares time function</opt>
+<opt>Declares date function</opt>
+<ans>Declares a utility function</ans>
+</end>
+
+<begin>
+<id>
+86714030
+</id>
+<q>
+What will be the output of the following C code?
+</q>
+<code>
+#include <stdio.h>
+#include <stdlib.h>
+int compareints(const void *a, const void *b)
+{
+    return ( *(int*)a - *(int*)b );
+}
+int values[] = { 50, 20, 60, 40, 10, 30 };
+int main ()
+{
+    int * p;
+    int key = 40;
+    qsort(values, 6, sizeof (int), compareints);
+    p = (int*) bsearch (&key, values, 6, sizeof (int), compareints);
+    if (p != NULL)
+    printf ("%d\n",*p);
+    return 0;
+}
+</code>
+<opt>10</opt>
+<opt>20</opt>
+<opt>30</opt>
+<opt>40</opt>
+<ans>40</ans>
+</end>
+
+<begin>
+<id>
+86814020
+</id>
+<q>
+void free(void *p) performs which of the following functions?
+</q>
+<code>
+</code>
+<opt>returns pointer to allocated space for existing contents of p</opt>
+<opt>de-allocates space to which p points</opt>
+<opt>to abnormally terminate the program</opt>
+<opt>no such function defined in stdlib.h</opt>
+<ans>de-allocates space to which p points</ans>
+</end>
+
+<begin>
+<id>
+86914020
+</id>
+<q>
+Which of the given option is declared under the header file stdlib.h?
+</q>
+<code>
+</code>
+<opt>SEEK_CUR</opt>
+<opt>SEEK_END</opt>
+<opt>CLOCKS_PER_SEC</opt>
+<opt>EXIT_SUCCESS</opt>
+<ans>EXIT_SUCCESS</ans>
+</end>
+
+<begin>
+<id>
+87014020
+</id>
+<q>
+Which statement is true with respect to RAND_MAX?
+</q>
+<code>
+</code>
+<opt>specifies value for status argument to exit indicating failure</opt>
+<opt>specifies value for status argument to exit indicating success</opt>
+<opt>specifies maximum value returned by rand()</opt>
+<opt>specifies maximum value returned by srand()</opt>
+<ans>specifies maximum value returned by rand()</ans>
+</end>
+
+<begin>
+<id>
+87114030
+</id>
+<q>
+What will the following C code do on compilation?
+</q>
+<code>
+int main(void) 
+{
+   char com[50];  
+   strcpy( com, "dir" ); 
+   system(com); 
+}
+</code>
+<opt>error</opt>
+<opt>lists down all the files and directories in the current directory under windows machine</opt>
+<opt>terminates the calling process immediately</opt>
+<opt>calls specified function and terminates it at the end of the program</opt>
+<ans>lists down all the files and directories in the current directory under windows machine</ans>
+</end>
+
+<begin>
+<id>
+87214030
+</id>
+<q>
+What will be the output of the program?
+</q>
+<code>
+#include<stdio.h>
+int main()
+{
+    int i;
+    char c;
+    for(i=1; i<=5; i++)
+    {
+        scanf("%c", &c); /* given input is 'b' */
+        ungetc(c, stdout);
+        printf("%c", c);
+        ungetc(c, stdin);
+    }
+    return 0;
+}
+</code>
+<opt>bbbb</opt>
+<opt>b</opt>
+<opt>bb</opt>
+<opt>Error in ungetc statement</opt>
+<ans>b</ans>
+</end>
+
+<begin>
+<id>
+87314020
+</id>
+<q>
+In which header file is the NULL macro defined?
+</q>
+<code>
+</code>
+<opt>stdio.h and stddef.h</opt>
+<opt>stddef.h</opt>
+<opt>stdio.h</opt>
+<opt>stdio.h</opt>
+<ans>stdio.h and stddef.h</ans>
+</end>
+
+<begin>
+<id>
+87414020
+</id>
+<q>
+Which header file should be included to use functions like malloc() and calloc()?
+</q>
+<code>
+</code>
+<opt>memory.h</opt>
+<opt>stdlib.h</opt>
+<opt>string.h</opt>
+<opt>conio.h</opt>
+<ans>stdlib.h</ans>
+</end>
+
+<begin>
+<id>
+87514030
+</id>
+<q>
+Specify the 2 library functions to dynamically allocate memory?
+</q>
+<code>
+</code>
+<opt>malloc() and memalloc()</opt>
+<opt>alloc() and memalloc()</opt>
+<opt>malloc() and calloc()</opt>
+<opt>memalloc() and faralloc()</opt>
+<ans>malloc() and calloc()</ans>
+</end>
+

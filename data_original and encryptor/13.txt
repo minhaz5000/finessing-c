@@ -1,0 +1,328 @@
+<begin>
+<id>
+13014030
+</id>
+<q>
+What is the default return-type of getchar()?
+</q>
+<code>
+</code>
+<opt>char*</opt>
+<opt>char</opt>
+<opt>int</opt>
+<opt>Reading character doesn't require a return-type</opt>
+<ans>int</ans>
+</end>
+
+<begin>
+<id>
+13114030
+</id>
+<q>
+What will be the output of the C program?
+</q>
+<code>
+#include<stdio.h>
+int main(void)
+{
+	char str[25];
+	printf(" %d ",printf("c-master"));
+	return 0;
+}
+</code>
+<opt>c-master 9</opt>
+<opt>c-master 10</opt>
+<opt>9 c-master</opt>
+<opt>10 c-master</opt>
+<ans>c-master 10</ans>
+</end>
+
+
+<begin>
+<id>
+13214030
+</id>
+<q>
+What will be the output of the C program neglecting user input?
+</q>
+<code>
+#include<stdio.h>
+int main(void)
+{
+  int a, b;
+  printf("%d",(scanf("%d %d",&a,&b)));  
+  return 0;
+}
+</code>
+<opt>1</opt>
+<opt>Compilation error</opt>
+<opt>2</opt>
+<opt>None of the these</opt>
+<ans>2</ans>
+</end>
+
+<begin>
+<id>
+13314030
+</id>
+<q>
+What is the output of this program?
+</q>
+<code>
+#include <stdio.h>
+int main(void)
+{
+	printf("crazy! %d", a);
+    return 0;
+}
+</code>
+<opt>crazy! x</opt>
+<opt>crazy! followed by a junk value</opt>
+<opt>Compile time error</opt>
+<opt>crazy!</opt>
+<ans>Compile time error</ans>
+</end>
+
+<begin>
+<id>
+13414030
+</id>
+<q>
+What will be the output of the C program?
+</q>
+<code>
+#include <stdio.h>
+# define scanf  "%s It's quiz time "
+int main(void)
+{
+   printf(scanf,scanf);
+   return 0;
+}
+</code>
+<opt>Invalid syntax</opt>
+<opt>%s It's quiz time %s It's quiz time</opt>
+<opt>%s It's quiz time  It's quiz time</opt>
+<opt>Run time error</opt>
+<ans>%s It's quiz time  It's quiz time</ans>
+</end>
+
+<begin>
+<id>
+13514030
+</id>
+<q>
+Which statement is true about the given code?
+</q>
+<code>
+#include <stdio.h>
+int main(void)
+{
+  printf("%d", main);
+  return 0;
+}
+</code>
+<opt>Compilation error</opt>
+<opt>Gives Garbage value</opt>
+<opt>Goes in infinite loop</opt>
+<opt>Gives address of function main</opt>
+<ans>Gives address of function main</ans>
+</end>
+
+<begin>
+<id>
+13614030
+</id>
+<q>
+What is the output of this program?
+</q>
+<code>
+#include <stdio.h>
+int main(void)
+{
+    int x;
+    x = 2, 3, 1;     
+    printf("%d", x);
+    return 0;
+}
+</code>
+<opt>1</opt>
+<opt>2</opt>
+<opt>3</opt>
+<opt>Garbage value</opt>
+<ans>2</ans>
+</end>
+
+<begin>
+<id>
+13714030
+</id>
+<q>
+What is the output of this C code?
+</q>
+<code>
+#include<stdio.h>
+int main(void)
+{
+	int x = 10, y = 2;
+    printf("%d\n", printf("%d %d ", x, y));
+}
+</code>
+<opt>Compile time error</opt>
+<opt>10 2 4</opt>
+<opt>10 2 5</opt>
+<opt>10 2 2</opt>
+<ans>10 2 5</ans>
+</end>
+
+<begin>
+<id>
+13814030
+</id>
+<q>
+What is the purpose of sprintf?
+</q>
+<code>
+</code>
+<opt>It writes the formatted data into a file</opt>
+<opt>It prints the data into stdout</opt>
+<opt>It writes the formatted data into a string</opt>
+<opt>None of the mentioned</opt>
+<ans>It writes the formatted data into a string</ans>
+</end>
+
+<begin>
+<id>
+13914030
+</id>
+<q>
+Which header file includes a function for variable number of arguments?
+</q>
+<code>
+</code>
+<opt>both stdlib.h and stdarg.h</opt>
+<opt>ctype.h</opt>
+<opt>stdlib.h</opt>
+<opt>stdarg.h</opt>
+<ans>stdarg.h</ans>
+</end>
+
+<begin>
+<id>
+14014030
+</id>
+<q>
+What is the output of the C program?
+</q>
+<code>
+#include <stdio.h>
+int main(void)
+{
+    char n[] = "PikachuDay";
+    char s[13];
+    sscanf(n, "%s", s);
+    printf("%s\n", s);
+    return 0;
+} 
+</code>
+<opt>Pika</opt>
+<opt>PikachuDay</opt>
+<opt>Pikachu</opt>
+<opt>Day</opt>
+<ans>PikachuDay</ans>
+</end>
+
+<begin>
+<id>
+14114030
+</id>
+<q>
+If the conversion characters of int d, i, o, u and x are preceded by h, it indicates?
+</q>
+<code>
+</code>
+<opt>A pointer to short</opt>
+<opt>A pointer to int</opt>
+<opt>A pointer to long</opt>
+<opt>A pointer to char</opt>
+<ans>A pointer to short</ans>
+</end>
+
+<begin>
+<id>
+14214030
+</id>
+<q>
+The function fprintf is used in a program
+</q>
+<code>
+</code>
+<opt>In place of printf, since printf uses more memory</opt>
+<opt>When output i to be printed on to a file</opt>
+<opt>When too many printf calls have been alrady used in the program</opt>
+<opt>All of the above</opt>
+<ans>When output i to be printed on to a file</ans>
+</end>
+
+<begin>
+<id>
+14314030
+</id>
+<q>
+What would be the output of the following program? 
+</q>
+<code>
+#include<stdio.h>
+int x=40;
+
+int main( ) 
+{
+   int x=20; 
+   printf (“\n%d", x); 
+} 
+</code>
+<opt>40</opt>
+<opt>20</opt>
+<opt>40 20</opt>
+<opt>Garbage value</opt>
+<ans>20</ans>
+</end>
+
+<begin>
+<id>
+14414030
+</id>
+<q>
+To print out a and b given below, which prinif() statement would you use? 
+</q>
+<code>
+float a=3.14;
+double b=3.14;
+</code>
+<opt>printf("%f %f",a,b);</opt>
+<opt>printf("%Lf %f",a,b);</opt>
+<opt>printf("%Lf %Lf",a,b);</opt>
+<opt>printf("%f %Lf",a,b);</opt>
+<ans>printf("%f %f",a,b);</ans>
+</end>
+
+
+<begin>
+<id>
+14514030
+</id>
+<q>
+What would be the output of the following program? 
+</q>
+<code>
+#include<stdio.h>
+int main(void)
+{
+    printf("\n%%%%");
+}
+</code>
+<opt>%</opt>
+<opt>%%</opt>
+<opt>%%%</opt>
+<opt>%%%%</opt>
+<ans>%%</ans>
+</end>
