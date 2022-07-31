@@ -12,7 +12,7 @@ CSE Department IUT
 
 Compilation:
 Run in Terminal or WSL with ncurses library installed:
-./make
+make
 
 Run Using:
 ./finessing_c
